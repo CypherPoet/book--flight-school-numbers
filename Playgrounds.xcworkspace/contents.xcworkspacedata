@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "02 - Number Formatting">
+      <FileRef
+         location = "group:02-number-formatting/Playgrounds/Chapter2.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:01-introduction-to-numbers"
+      name = "01- Introduction To Numbers">
+      <FileRef
+         location = "group:Chapter1.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Private/book-source"
+      name = "book-source">
+      <FileRef
+         location = "group:LICENSE.md">
+      </FileRef>
+      <Group
+         location = "group:Chapter 1"
+         name = "Chapter 1">
+         <FileRef
+            location = "group:Floating Point Approximates.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Floating Point Environment.playground">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <FileRef
+         location = "group:cover.jpg">
+      </FileRef>
+      <Group
+         location = "group:Chapter 3"
+         name = "Chapter 3">
+         <FileRef
+            location = "group:Currency Converter.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Money.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Chapter 4"
+         name = "Chapter 4">
+         <FileRef
+            location = "group:Temperature Formatting.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Configuring Precision.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Natural Scale.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Units Interoperability.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Provided Units.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Chapter 5"
+         name = "Chapter 5">
+         <FileRef
+            location = "group:Agricultural Flight Planner.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Chapter 2"
+         name = "Chapter 2">
+         <FileRef
+            location = "group:Integer and Fraction Digits.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Currencies.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Rounding Modes.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Scientific Notation.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Ordinal Numbers.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Significant Digits.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Percentages.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Decimal Numbers.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Cardinal Numbers.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Custom Formats.playground">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>
