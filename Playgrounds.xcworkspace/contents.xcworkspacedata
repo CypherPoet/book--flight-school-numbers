@@ -3,6 +3,13 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "03 - Currency and Monetary Amounts">
+      <FileRef
+         location = "group:03-currency-and-monetary-amounts/Playgrounds/MyPlayground.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "02 - Number Formatting">
       <FileRef
          location = "group:02-number-formatting/Playgrounds/Chapter2.playground">
@@ -108,4 +115,7 @@
          </FileRef>
       </Group>
    </Group>
+   <FileRef
+      location = "group:/Users/briansipple/lxda/swift/book--flight-school-numbers/README.md">
+   </FileRef>
 </Workspace>

@@ -6,3 +6,7 @@ _Projects, playgrounds, and other materials made while following along with the 
 # Contents
 
 - [Chapter 1: Introduction To Numbers](./01-introduction-to-numbers)
+
+- [Chapter 2: Number Formatting](./02-number-formatting)
+
+- [Chapter 3: Currency and Monetary Amounts](./03-currency-and-monetary-amounts)

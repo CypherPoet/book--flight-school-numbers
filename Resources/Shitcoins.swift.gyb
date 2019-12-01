@@ -1,0 +1,40 @@
+%{
+  import csv
+}%
+
+% with open('./shitcoin-data.csv') as file:
+  % for row in csv.DictReader(file):
+
+%{
+  code = row["iso"]
+  name = row["country"]
+  symbol = row["symbol"]
+  minorUnit = int(row["decimals"]) \
+    if row["decimals"] else 0
+}%
+
+/// ${name} (${code})
+public enum ${code}: ShitcoinType {
+    public static var code: String {
+        "${code}"
+    }
+
+    public static var name: String {
+        "${name}"
+    }
+
+    public static var symbol: String {
+        "${symbol}"
+    }
+
+    public static var minorUnit: Int {
+        ${minorUnit}
+    }
+}
+        %end
+    %end
+%end
+
+
+# Run with:
+# gyb --line-directive '' -o Shitcoins.swift Shitcoins.swift.gyb
