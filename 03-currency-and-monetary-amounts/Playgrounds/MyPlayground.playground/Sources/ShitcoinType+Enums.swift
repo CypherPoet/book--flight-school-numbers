@@ -3,4922 +3,2420 @@ import Foundation
 // "ShitcoinType" Phantom Types
 // (see: https://www.natashatherobot.com/swift-money-phantom-types/)
 
-/// Andorra (AD)
-public enum AD: ShitcoinType {
+
+
+/// UAE Dirham (AED)
+public enum AED: ShitcoinType {
     public static var code: String {
-        "AD"
+        return "AED"
     }
-
+    
     public static var name: String {
-        "Andorra"
-    }
-
-    public static var symbol: String {
-        "€"
+        return "UAE Dirham"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// United Arab Emirates (AE)
-public enum AE: ShitcoinType {
+/// Afghani (AFN)
+public enum AFN: ShitcoinType {
     public static var code: String {
-        "AE"
+        return "AFN"
     }
-
+    
     public static var name: String {
-        "United Arab Emirates"
+        return "Afghani"
     }
-
-    public static var symbol: String {
-"د.إ"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Afghanistan (AF)
-public enum AF: ShitcoinType {
+/// Lek (ALL)
+public enum ALL: ShitcoinType {
     public static var code: String {
-        "AF"
+        return "ALL"
     }
-
+    
     public static var name: String {
-        "Afghanistan"
-    }
-
-    public static var symbol: String {
-        "؋"
+        return "Lek"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Antigua and Barbuda (AG)
-public enum AG: ShitcoinType {
+/// Armenian Dram (AMD)
+public enum AMD: ShitcoinType {
     public static var code: String {
-        "AG"
+        return "AMD"
     }
-
+    
     public static var name: String {
-        "Antigua and Barbuda"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Armenian Dram"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Anguilla (AI)
-public enum AI: ShitcoinType {
+/// Netherlands Antillean Guilder (ANG)
+public enum ANG: ShitcoinType {
     public static var code: String {
-        "AI"
+        return "ANG"
     }
-
+    
     public static var name: String {
-        "Anguilla"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Netherlands Antillean Guilder"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Albania (AL)
-public enum AL: ShitcoinType {
+/// Kwanza (AOA)
+public enum AOA: ShitcoinType {
     public static var code: String {
-        "AL"
+        return "AOA"
     }
-
+    
     public static var name: String {
-        "Albania"
+        return "Kwanza"
     }
-
-    public static var symbol: String {
-        "Lek"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Armenia (AM)
-public enum AM: ShitcoinType {
+/// Argentine Peso (ARS)
+public enum ARS: ShitcoinType {
     public static var code: String {
-        "AM"
+        return "ARS"
     }
-
+    
     public static var name: String {
-        "Armenia"
-    }
-
-    public static var symbol: String {
-        "դր"
+        return "Argentine Peso"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Angola (AO)
-public enum AO: ShitcoinType {
+/// Australian Dollar (AUD)
+public enum AUD: ShitcoinType {
     public static var code: String {
-        "AO"
+        return "AUD"
     }
-
+    
     public static var name: String {
-        "Angola"
-    }
-
-    public static var symbol: String {
-        "Kz"
+        return "Australian Dollar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Argentina (AR)
-public enum AR: ShitcoinType {
+/// Aruban Florin (AWG)
+public enum AWG: ShitcoinType {
     public static var code: String {
-        "AR"
+        return "AWG"
     }
-
+    
     public static var name: String {
-        "Argentina"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Aruban Florin"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// American Samoa (AS)
-public enum AS: ShitcoinType {
+/// Azerbaijan Manat (AZN)
+public enum AZN: ShitcoinType {
     public static var code: String {
-        "AS"
+        return "AZN"
     }
-
+    
     public static var name: String {
-        "American Samoa"
+        return "Azerbaijan Manat"
     }
-
-    public static var symbol: String {
-        "$"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Austria (AT)
-public enum AT: ShitcoinType {
+/// Convertible Mark (BAM)
+public enum BAM: ShitcoinType {
     public static var code: String {
-        "AT"
+        return "BAM"
     }
-
+    
     public static var name: String {
-        "Austria"
-    }
-
-    public static var symbol: String {
-        "€"
+        return "Convertible Mark"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Australia (AU)
-public enum AU: ShitcoinType {
+/// Barbados Dollar (BBD)
+public enum BBD: ShitcoinType {
     public static var code: String {
-        "AU"
+        return "BBD"
     }
-
+    
     public static var name: String {
-        "Australia"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Barbados Dollar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Aruba (AW)
-public enum AW: ShitcoinType {
+/// Taka (BDT)
+public enum BDT: ShitcoinType {
     public static var code: String {
-        "AW"
+        return "BDT"
     }
-
+    
     public static var name: String {
-        "Aruba"
-    }
-
-    public static var symbol: String {
-        "ƒ"
+        return "Taka"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Åland (AX)
-public enum AX: ShitcoinType {
+/// Bulgarian Lev (BGN)
+public enum BGN: ShitcoinType {
     public static var code: String {
-        "AX"
+        return "BGN"
     }
-
+    
     public static var name: String {
-        "Åland"
+        return "Bulgarian Lev"
     }
-
-    public static var symbol: String {
-        "€"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Azerbaijan (AZ)
-public enum AZ: ShitcoinType {
+/// Bahraini Dinar (BHD)
+public enum BHD: ShitcoinType {
     public static var code: String {
-        "AZ"
+        return "BHD"
     }
-
+    
     public static var name: String {
-        "Azerbaijan"
-    }
-
-    public static var symbol: String {
-        "ман"
+        return "Bahraini Dinar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 3
     }
 }
 
-
-/// Bosnia-Herzegovina (BA)
-public enum BA: ShitcoinType {
+/// Burundi Franc (BIF)
+public enum BIF: ShitcoinType {
     public static var code: String {
-        "BA"
+        return "BIF"
     }
-
+    
     public static var name: String {
-        "Bosnia-Herzegovina"
-    }
-
-    public static var symbol: String {
-        "KM"
+        return "Burundi Franc"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 0
     }
 }
-
 
-/// Barbados (BB)
-public enum BB: ShitcoinType {
+/// Bermudian Dollar (BMD)
+public enum BMD: ShitcoinType {
     public static var code: String {
-        "BB"
+        return "BMD"
     }
-
+    
     public static var name: String {
-        "Barbados"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Bermudian Dollar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Bangladesh (BD)
-public enum BD: ShitcoinType {
+/// Brunei Dollar (BND)
+public enum BND: ShitcoinType {
     public static var code: String {
-        "BD"
+        return "BND"
     }
-
+    
     public static var name: String {
-        "Bangladesh"
+        return "Brunei Dollar"
     }
-
-    public static var symbol: String {
-        "৳"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Belgium (BE)
-public enum BE: ShitcoinType {
+/// Boliviano (BOB)
+public enum BOB: ShitcoinType {
     public static var code: String {
-        "BE"
+        return "BOB"
     }
-
+    
     public static var name: String {
-        "Belgium"
-    }
-
-    public static var symbol: String {
-        "€"
+        return "Boliviano"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Burkina Faso (BF)
-public enum BF: ShitcoinType {
+/// Mvdol (BOV)
+public enum BOV: ShitcoinType {
     public static var code: String {
-        "BF"
+        return "BOV"
     }
-
+    
     public static var name: String {
-        "Burkina Faso"
-    }
-
-    public static var symbol: String {
-        "CFA"
+        return "Mvdol"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
-
 
-/// Bulgaria (BG)
-public enum BG: ShitcoinType {
+/// Brazilian Real (BRL)
+public enum BRL: ShitcoinType {
     public static var code: String {
-        "BG"
+        return "BRL"
     }
-
+    
     public static var name: String {
-        "Bulgaria"
-    }
-
-    public static var symbol: String {
-        "лв"
+        return "Brazilian Real"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Bahrain (BH)
-public enum BH: ShitcoinType {
+/// Bahamian Dollar (BSD)
+public enum BSD: ShitcoinType {
     public static var code: String {
-        "BH"
+        return "BSD"
     }
-
+    
     public static var name: String {
-        "Bahrain"
+        return "Bahamian Dollar"
     }
-
-    public static var symbol: String {
-        ".د.ب"
-    }
-
+    
     public static var minorUnit: Int {
-        3
+        return 2
     }
 }
-
 
-/// Burundi (BI)
-public enum BI: ShitcoinType {
+/// Ngultrum (BTN)
+public enum BTN: ShitcoinType {
     public static var code: String {
-        "BI"
+        return "BTN"
     }
-
+    
     public static var name: String {
-        "Burundi"
-    }
-
-    public static var symbol: String {
-        "FBu"
+        return "Ngultrum"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
 
-
-/// Benin (BJ)
-public enum BJ: ShitcoinType {
+/// Pula (BWP)
+public enum BWP: ShitcoinType {
     public static var code: String {
-        "BJ"
+        return "BWP"
     }
-
+    
     public static var name: String {
-        "Benin"
-    }
-
-    public static var symbol: String {
-        "CFA"
+        return "Pula"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
-
 
-/// Saint Barthélemy (BL)
-public enum BL: ShitcoinType {
+/// Belarusian Ruble (BYN)
+public enum BYN: ShitcoinType {
     public static var code: String {
-        "BL"
+        return "BYN"
     }
-
+    
     public static var name: String {
-        "Saint Barthélemy"
-    }
-
-    public static var symbol: String {
-        "€"
+        return "Belarusian Ruble"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Bermuda (BM)
-public enum BM: ShitcoinType {
+/// Belize Dollar (BZD)
+public enum BZD: ShitcoinType {
     public static var code: String {
-        "BM"
+        return "BZD"
     }
-
+    
     public static var name: String {
-        "Bermuda"
+        return "Belize Dollar"
     }
-
-    public static var symbol: String {
-        "$"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Brunei (BN)
-public enum BN: ShitcoinType {
+/// Canadian Dollar (CAD)
+public enum CAD: ShitcoinType {
     public static var code: String {
-        "BN"
+        return "CAD"
     }
-
+    
     public static var name: String {
-        "Brunei"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Canadian Dollar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Bolivia (BO)
-public enum BO: ShitcoinType {
+/// Congolese Franc (CDF)
+public enum CDF: ShitcoinType {
     public static var code: String {
-        "BO"
+        return "CDF"
     }
-
+    
     public static var name: String {
-        "Bolivia"
-    }
-
-    public static var symbol: String {
-        "Bs."
+        return "Congolese Franc"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Caribbean Netherlands (BQ)
-public enum BQ: ShitcoinType {
+/// WIR Euro (CHE)
+public enum CHE: ShitcoinType {
     public static var code: String {
-        "BQ"
+        return "CHE"
     }
-
+    
     public static var name: String {
-        "Caribbean Netherlands"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "WIR Euro"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Brazil (BR)
-public enum BR: ShitcoinType {
+/// Swiss Franc (CHF)
+public enum CHF: ShitcoinType {
     public static var code: String {
-        "BR"
+        return "CHF"
     }
-
+    
     public static var name: String {
-        "Brazil"
+        return "Swiss Franc"
     }
-
-    public static var symbol: String {
-        "R$"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Bahamas (BS)
-public enum BS: ShitcoinType {
+/// WIR Franc (CHW)
+public enum CHW: ShitcoinType {
     public static var code: String {
-        "BS"
+        return "CHW"
     }
-
+    
     public static var name: String {
-        "Bahamas"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "WIR Franc"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Bhutan (BT)
-public enum BT: ShitcoinType {
+/// Unidad de Fomento (CLF)
+public enum CLF: ShitcoinType {
     public static var code: String {
-        "BT"
+        return "CLF"
     }
-
+    
     public static var name: String {
-        "Bhutan"
-    }
-
-    public static var symbol: String {
-        "Nu."
+        return "Unidad de Fomento"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 4
     }
 }
-
 
-/// Bouvet Island (BV)
-public enum BV: ShitcoinType {
+/// Chilean Peso (CLP)
+public enum CLP: ShitcoinType {
     public static var code: String {
-        "BV"
+        return "CLP"
     }
-
+    
     public static var name: String {
-        "Bouvet Island"
-    }
-
-    public static var symbol: String {
-        "kr"
+        return "Chilean Peso"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 0
     }
 }
 
-
-/// Botswana (BW)
-public enum BW: ShitcoinType {
+/// Yuan Renminbi (CNY)
+public enum CNY: ShitcoinType {
     public static var code: String {
-        "BW"
+        return "CNY"
     }
-
+    
     public static var name: String {
-        "Botswana"
+        return "Yuan Renminbi"
     }
-
-    public static var symbol: String {
-        "P"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Belarus (BY)
-public enum BY: ShitcoinType {
+/// Colombian Peso (COP)
+public enum COP: ShitcoinType {
     public static var code: String {
-        "BY"
+        return "COP"
     }
-
+    
     public static var name: String {
-        "Belarus"
-    }
-
-    public static var symbol: String {
-        "p."
+        return "Colombian Peso"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
 
-
-/// Belize (BZ)
-public enum BZ: ShitcoinType {
+/// Unidad de Valor Real (COU)
+public enum COU: ShitcoinType {
     public static var code: String {
-        "BZ"
+        return "COU"
     }
-
+    
     public static var name: String {
-        "Belize"
-    }
-
-    public static var symbol: String {
-        "BZ$"
+        return "Unidad de Valor Real"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Canada (CA)
-public enum CA: ShitcoinType {
+/// Costa Rican Colon (CRC)
+public enum CRC: ShitcoinType {
     public static var code: String {
-        "CA"
+        return "CRC"
     }
-
+    
     public static var name: String {
-        "Canada"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Costa Rican Colon"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Cocos (Keeling) Islands (CC)
-public enum CC: ShitcoinType {
+/// Peso Convertible (CUC)
+public enum CUC: ShitcoinType {
     public static var code: String {
-        "CC"
+        return "CUC"
     }
-
+    
     public static var name: String {
-        "Cocos (Keeling) Islands"
+        return "Peso Convertible"
     }
-
-    public static var symbol: String {
-        "$"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Congo D.R. (CD)
-public enum CD: ShitcoinType {
+/// Cuban Peso (CUP)
+public enum CUP: ShitcoinType {
     public static var code: String {
-        "CD"
+        return "CUP"
     }
-
+    
     public static var name: String {
-        "Congo D.R."
-    }
-
-    public static var symbol: String {
-        "CF"
+        return "Cuban Peso"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Central African Rep. (CF)
-public enum CF: ShitcoinType {
+/// Cabo Verde Escudo (CVE)
+public enum CVE: ShitcoinType {
     public static var code: String {
-        "CF"
+        return "CVE"
     }
-
+    
     public static var name: String {
-        "Central African Rep."
-    }
-
-    public static var symbol: String {
-        "CFA"
+        return "Cabo Verde Escudo"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
-
 
-/// Congo (CG)
-public enum CG: ShitcoinType {
+/// Czech Koruna (CZK)
+public enum CZK: ShitcoinType {
     public static var code: String {
-        "CG"
+        return "CZK"
     }
-
+    
     public static var name: String {
-        "Congo"
-    }
-
-    public static var symbol: String {
-        "CFA"
+        return "Czech Koruna"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
 
-
-/// Switzerland (CH)
-public enum CH: ShitcoinType {
+/// Djibouti Franc (DJF)
+public enum DJF: ShitcoinType {
     public static var code: String {
-        "CH"
+        return "DJF"
     }
-
+    
     public static var name: String {
-        "Switzerland"
+        return "Djibouti Franc"
     }
-
-    public static var symbol: String {
-        "CHF"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 0
     }
 }
-
 
-/// Côte d'Ivoire (CI)
-public enum CI: ShitcoinType {
+/// Danish Krone (DKK)
+public enum DKK: ShitcoinType {
     public static var code: String {
-        "CI"
+        return "DKK"
     }
-
+    
     public static var name: String {
-        "Côte d'Ivoire"
-    }
-
-    public static var symbol: String {
-        "CFA"
+        return "Danish Krone"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
 
-
-/// Cook Islands (CK)
-public enum CK: ShitcoinType {
+/// Dominican Peso (DOP)
+public enum DOP: ShitcoinType {
     public static var code: String {
-        "CK"
+        return "DOP"
     }
-
+    
     public static var name: String {
-        "Cook Islands"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Dominican Peso"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Chile (CL)
-public enum CL: ShitcoinType {
+/// Algerian Dinar (DZD)
+public enum DZD: ShitcoinType {
     public static var code: String {
-        "CL"
+        return "DZD"
     }
-
+    
     public static var name: String {
-        "Chile"
-    }
-
-    public static var symbol: String {
-        "CLP$"
+        return "Algerian Dinar"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
 
-
-/// Cameroon (CM)
-public enum CM: ShitcoinType {
+/// Egyptian Pound (EGP)
+public enum EGP: ShitcoinType {
     public static var code: String {
-        "CM"
+        return "EGP"
     }
-
+    
     public static var name: String {
-        "Cameroon"
+        return "Egyptian Pound"
     }
-
-    public static var symbol: String {
-        "CFA"
-    }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
-
 
-/// China (CN)
-public enum CN: ShitcoinType {
+/// Nakfa (ERN)
+public enum ERN: ShitcoinType {
     public static var code: String {
-        "CN"
+        return "ERN"
     }
-
+    
     public static var name: String {
-        "China"
-    }
-
-    public static var symbol: String {
-        "¥"
+        return "Nakfa"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Colombia (CO)
-public enum CO: ShitcoinType {
+/// Ethiopian Birr (ETB)
+public enum ETB: ShitcoinType {
     public static var code: String {
-        "CO"
+        return "ETB"
     }
-
+    
     public static var name: String {
-        "Colombia"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Ethiopian Birr"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Costa Rica (CR)
-public enum CR: ShitcoinType {
+/// Euro (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "CR"
+        return "EUR"
     }
-
+    
     public static var name: String {
-        "Costa Rica"
-    }
-
-    public static var symbol: String {
-        "₡"
+        return "Euro"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Cuba (CU)
-public enum CU: ShitcoinType {
+/// Fiji Dollar (FJD)
+public enum FJD: ShitcoinType {
     public static var code: String {
-        "CU"
+        return "FJD"
     }
-
+    
     public static var name: String {
-        "Cuba"
+        return "Fiji Dollar"
     }
-
-    public static var symbol: String {
-        "CUC$"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Cape Verde (CV)
-public enum CV: ShitcoinType {
+/// Falkland Islands Pound (FKP)
+public enum FKP: ShitcoinType {
     public static var code: String {
-        "CV"
+        return "FKP"
     }
-
+    
     public static var name: String {
-        "Cape Verde"
-    }
-
-    public static var symbol: String {
-        "Esc"
+        return "Falkland Islands Pound"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Curaçao (CW)
-public enum CW: ShitcoinType {
+/// Pound Sterling (GBP)
+public enum GBP: ShitcoinType {
     public static var code: String {
-        "CW"
+        return "GBP"
     }
-
+    
     public static var name: String {
-        "Curaçao"
-    }
-
-    public static var symbol: String {
-        "ƒ"
+        return "Pound Sterling"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Christmas Island (CX)
-public enum CX: ShitcoinType {
+/// Lari (GEL)
+public enum GEL: ShitcoinType {
     public static var code: String {
-        "CX"
+        return "GEL"
     }
-
+    
     public static var name: String {
-        "Christmas Island"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Lari"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Cyprus (CY)
-public enum CY: ShitcoinType {
+/// Ghana Cedi (GHS)
+public enum GHS: ShitcoinType {
     public static var code: String {
-        "CY"
+        return "GHS"
     }
-
+    
     public static var name: String {
-        "Cyprus"
-    }
-
-    public static var symbol: String {
-        "€"
+        return "Ghana Cedi"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Czech Republic (CZ)
-public enum CZ: ShitcoinType {
+/// Gibraltar Pound (GIP)
+public enum GIP: ShitcoinType {
     public static var code: String {
-        "CZ"
+        return "GIP"
     }
-
+    
     public static var name: String {
-        "Czech Republic"
+        return "Gibraltar Pound"
     }
-
-    public static var symbol: String {
-        "Kč"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Germany (DE)
-public enum DE: ShitcoinType {
+/// Dalasi (GMD)
+public enum GMD: ShitcoinType {
     public static var code: String {
-        "DE"
+        return "GMD"
     }
-
+    
     public static var name: String {
-        "Germany"
-    }
-
-    public static var symbol: String {
-        "€"
+        return "Dalasi"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Djibouti (DJ)
-public enum DJ: ShitcoinType {
+/// Guinean Franc (GNF)
+public enum GNF: ShitcoinType {
     public static var code: String {
-        "DJ"
+        return "GNF"
     }
-
+    
     public static var name: String {
-        "Djibouti"
-    }
-
-    public static var symbol: String {
-        "DF"
+        return "Guinean Franc"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 0
     }
 }
-
 
-/// Denmark (DK)
-public enum DK: ShitcoinType {
+/// Quetzal (GTQ)
+public enum GTQ: ShitcoinType {
     public static var code: String {
-        "DK"
+        return "GTQ"
     }
-
+    
     public static var name: String {
-        "Denmark"
-    }
-
-    public static var symbol: String {
-        "kr"
+        return "Quetzal"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Dominica (DM)
-public enum DM: ShitcoinType {
+/// Guyana Dollar (GYD)
+public enum GYD: ShitcoinType {
     public static var code: String {
-        "DM"
+        return "GYD"
     }
-
+    
     public static var name: String {
-        "Dominica"
+        return "Guyana Dollar"
     }
-
-    public static var symbol: String {
-        "$"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Dominican Republic (DO)
-public enum DO: ShitcoinType {
+/// Hong Kong Dollar (HKD)
+public enum HKD: ShitcoinType {
     public static var code: String {
-        "DO"
+        return "HKD"
     }
-
+    
     public static var name: String {
-        "Dominican Republic"
-    }
-
-    public static var symbol: String {
-        "RD$"
+        return "Hong Kong Dollar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Algeria (DZ)
-public enum DZ: ShitcoinType {
+/// Lempira (HNL)
+public enum HNL: ShitcoinType {
     public static var code: String {
-        "DZ"
+        return "HNL"
     }
-
+    
     public static var name: String {
-        "Algeria"
-    }
-
-    public static var symbol: String {
-        "دج"
+        return "Lempira"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Ecuador (EC)
-public enum EC: ShitcoinType {
+/// Kuna (HRK)
+public enum HRK: ShitcoinType {
     public static var code: String {
-        "EC"
+        return "HRK"
     }
-
+    
     public static var name: String {
-        "Ecuador"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Kuna"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Estonia (EE)
-public enum EE: ShitcoinType {
+/// Gourde (HTG)
+public enum HTG: ShitcoinType {
     public static var code: String {
-        "EE"
+        return "HTG"
     }
-
+    
     public static var name: String {
-        "Estonia"
+        return "Gourde"
     }
-
-    public static var symbol: String {
-        "€"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Egypt (EG)
-public enum EG: ShitcoinType {
+/// Forint (HUF)
+public enum HUF: ShitcoinType {
     public static var code: String {
-        "EG"
+        return "HUF"
     }
-
+    
     public static var name: String {
-        "Egypt"
-    }
-
-    public static var symbol: String {
-        "£"
+        return "Forint"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Western Sahara (EH)
-public enum EH: ShitcoinType {
+/// Rupiah (IDR)
+public enum IDR: ShitcoinType {
     public static var code: String {
-        "EH"
+        return "IDR"
     }
-
+    
     public static var name: String {
-        "Western Sahara"
-    }
-
-    public static var symbol: String {
-        "د.م."
+        return "Rupiah"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Eritrea (ER)
-public enum ER: ShitcoinType {
+/// New Israeli Sheqel (ILS)
+public enum ILS: ShitcoinType {
     public static var code: String {
-        "ER"
+        return "ILS"
     }
-
+    
     public static var name: String {
-        "Eritrea"
-    }
-
-    public static var symbol: String {
-        "Nfk"
+        return "New Israeli Sheqel"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Spain (ES)
-public enum ES: ShitcoinType {
+/// Indian Rupee (INR)
+public enum INR: ShitcoinType {
     public static var code: String {
-        "ES"
+        return "INR"
     }
-
+    
     public static var name: String {
-        "Spain"
+        return "Indian Rupee"
     }
-
-    public static var symbol: String {
-        "€"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Ethiopia (ET)
-public enum ET: ShitcoinType {
+/// Iraqi Dinar (IQD)
+public enum IQD: ShitcoinType {
     public static var code: String {
-        "ET"
+        return "IQD"
     }
-
+    
     public static var name: String {
-        "Ethiopia"
-    }
-
-    public static var symbol: String {
-        "Br"
+        return "Iraqi Dinar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 3
     }
 }
 
-
-/// Finland (FI)
-public enum FI: ShitcoinType {
+/// Iranian Rial (IRR)
+public enum IRR: ShitcoinType {
     public static var code: String {
-        "FI"
+        return "IRR"
     }
-
+    
     public static var name: String {
-        "Finland"
-    }
-
-    public static var symbol: String {
-        "€"
+        return "Iranian Rial"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Fiji (FJ)
-public enum FJ: ShitcoinType {
+/// Iceland Krona (ISK)
+public enum ISK: ShitcoinType {
     public static var code: String {
-        "FJ"
+        return "ISK"
     }
-
+    
     public static var name: String {
-        "Fiji"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Iceland Krona"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 0
     }
 }
 
-
-/// Falkland Islands (FK)
-public enum FK: ShitcoinType {
+/// Jamaican Dollar (JMD)
+public enum JMD: ShitcoinType {
     public static var code: String {
-        "FK"
+        return "JMD"
     }
-
+    
     public static var name: String {
-        "Falkland Islands"
+        return "Jamaican Dollar"
     }
-
-    public static var symbol: String {
-        "£"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Micronesia (FM)
-public enum FM: ShitcoinType {
+/// Jordanian Dinar (JOD)
+public enum JOD: ShitcoinType {
     public static var code: String {
-        "FM"
+        return "JOD"
     }
-
+    
     public static var name: String {
-        "Micronesia"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Jordanian Dinar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 3
     }
 }
 
-
-/// Faroe Islands (FO)
-public enum FO: ShitcoinType {
+/// Yen (JPY)
+public enum JPY: ShitcoinType {
     public static var code: String {
-        "FO"
+        return "JPY"
     }
-
+    
     public static var name: String {
-        "Faroe Islands"
-    }
-
-    public static var symbol: String {
-        "kr"
+        return "Yen"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 0
     }
 }
-
 
-/// France (FR)
-public enum FR: ShitcoinType {
+/// Kenyan Shilling (KES)
+public enum KES: ShitcoinType {
     public static var code: String {
-        "FR"
+        return "KES"
     }
-
+    
     public static var name: String {
-        "France"
-    }
-
-    public static var symbol: String {
-        "€"
+        return "Kenyan Shilling"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Gabon (GA)
-public enum GA: ShitcoinType {
+/// Som (KGS)
+public enum KGS: ShitcoinType {
     public static var code: String {
-        "GA"
+        return "KGS"
     }
-
+    
     public static var name: String {
-        "Gabon"
+        return "Som"
     }
-
-    public static var symbol: String {
-        "CFA"
-    }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
-
 
-/// United Kingdom (GB)
-public enum GB: ShitcoinType {
+/// Riel (KHR)
+public enum KHR: ShitcoinType {
     public static var code: String {
-        "GB"
+        return "KHR"
     }
-
+    
     public static var name: String {
-        "United Kingdom"
-    }
-
-    public static var symbol: String {
-        "£"
+        return "Riel"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Grenada (GD)
-public enum GD: ShitcoinType {
+/// Comorian Franc  (KMF)
+public enum KMF: ShitcoinType {
     public static var code: String {
-        "GD"
+        return "KMF"
     }
-
+    
     public static var name: String {
-        "Grenada"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Comorian Franc "
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 0
     }
 }
-
 
-/// Georgia (GE)
-public enum GE: ShitcoinType {
+/// North Korean Won (KPW)
+public enum KPW: ShitcoinType {
     public static var code: String {
-        "GE"
+        return "KPW"
     }
-
+    
     public static var name: String {
-        "Georgia"
-    }
-
-    public static var symbol: String {
-        "ლ"
+        return "North Korean Won"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// French Guiana (GF)
-public enum GF: ShitcoinType {
+/// Won (KRW)
+public enum KRW: ShitcoinType {
     public static var code: String {
-        "GF"
+        return "KRW"
     }
-
+    
     public static var name: String {
-        "French Guiana"
+        return "Won"
     }
-
-    public static var symbol: String {
-        "€"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 0
     }
 }
-
 
-/// Guernsey (GG)
-public enum GG: ShitcoinType {
+/// Kuwaiti Dinar (KWD)
+public enum KWD: ShitcoinType {
     public static var code: String {
-        "GG"
+        return "KWD"
     }
-
+    
     public static var name: String {
-        "Guernsey"
-    }
-
-    public static var symbol: String {
-        "£"
+        return "Kuwaiti Dinar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 3
     }
 }
 
-
-/// Ghana (GH)
-public enum GH: ShitcoinType {
+/// Cayman Islands Dollar (KYD)
+public enum KYD: ShitcoinType {
     public static var code: String {
-        "GH"
+        return "KYD"
     }
-
+    
     public static var name: String {
-        "Ghana"
-    }
-
-    public static var symbol: String {
-        "GH¢"
+        return "Cayman Islands Dollar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Gibraltar (GI)
-public enum GI: ShitcoinType {
+/// Tenge (KZT)
+public enum KZT: ShitcoinType {
     public static var code: String {
-        "GI"
+        return "KZT"
     }
-
+    
     public static var name: String {
-        "Gibraltar"
-    }
-
-    public static var symbol: String {
-        "£"
+        return "Tenge"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Greenland (GL)
-public enum GL: ShitcoinType {
+/// Lao Kip (LAK)
+public enum LAK: ShitcoinType {
     public static var code: String {
-        "GL"
+        return "LAK"
     }
-
+    
     public static var name: String {
-        "Greenland"
+        return "Lao Kip"
     }
-
-    public static var symbol: String {
-        "kr"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Gambia (GM)
-public enum GM: ShitcoinType {
+/// Lebanese Pound (LBP)
+public enum LBP: ShitcoinType {
     public static var code: String {
-        "GM"
+        return "LBP"
     }
-
+    
     public static var name: String {
-        "Gambia"
-    }
-
-    public static var symbol: String {
-        "D"
+        return "Lebanese Pound"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Guinea (GN)
-public enum GN: ShitcoinType {
+/// Sri Lanka Rupee (LKR)
+public enum LKR: ShitcoinType {
     public static var code: String {
-        "GN"
+        return "LKR"
     }
-
+    
     public static var name: String {
-        "Guinea"
-    }
-
-    public static var symbol: String {
-        "FG"
+        return "Sri Lanka Rupee"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
-
 
-/// Guadeloupe (GP)
-public enum GP: ShitcoinType {
+/// Liberian Dollar (LRD)
+public enum LRD: ShitcoinType {
     public static var code: String {
-        "GP"
+        return "LRD"
     }
-
+    
     public static var name: String {
-        "Guadeloupe"
-    }
-
-    public static var symbol: String {
-        "€"
+        return "Liberian Dollar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Equatorial Guinea (GQ)
-public enum GQ: ShitcoinType {
+/// Loti (LSL)
+public enum LSL: ShitcoinType {
     public static var code: String {
-        "GQ"
+        return "LSL"
     }
-
+    
     public static var name: String {
-        "Equatorial Guinea"
+        return "Loti"
     }
-
-    public static var symbol: String {
-        "CFA"
-    }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
-
 
-/// Greece (GR)
-public enum GR: ShitcoinType {
+/// Libyan Dinar (LYD)
+public enum LYD: ShitcoinType {
     public static var code: String {
-        "GR"
+        return "LYD"
     }
-
+    
     public static var name: String {
-        "Greece"
-    }
-
-    public static var symbol: String {
-        "€"
+        return "Libyan Dinar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 3
     }
 }
 
-
-/// Guatemala (GT)
-public enum GT: ShitcoinType {
+/// Moroccan Dirham (MAD)
+public enum MAD: ShitcoinType {
     public static var code: String {
-        "GT"
+        return "MAD"
     }
-
+    
     public static var name: String {
-        "Guatemala"
-    }
-
-    public static var symbol: String {
-        "Q"
+        return "Moroccan Dirham"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Guam (GU)
-public enum GU: ShitcoinType {
+/// Moldovan Leu (MDL)
+public enum MDL: ShitcoinType {
     public static var code: String {
-        "GU"
+        return "MDL"
     }
-
+    
     public static var name: String {
-        "Guam"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Moldovan Leu"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Guinea-Bissau (GW)
-public enum GW: ShitcoinType {
+/// Malagasy Ariary (MGA)
+public enum MGA: ShitcoinType {
     public static var code: String {
-        "GW"
+        return "MGA"
     }
-
+    
     public static var name: String {
-        "Guinea-Bissau"
+        return "Malagasy Ariary"
     }
-
-    public static var symbol: String {
-        "CFA"
-    }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
-
 
-/// Guyana (GY)
-public enum GY: ShitcoinType {
+/// Denar (MKD)
+public enum MKD: ShitcoinType {
     public static var code: String {
-        "GY"
+        return "MKD"
     }
-
+    
     public static var name: String {
-        "Guyana"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Denar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Hong Kong (HK)
-public enum HK: ShitcoinType {
+/// Kyat (MMK)
+public enum MMK: ShitcoinType {
     public static var code: String {
-        "HK"
+        return "MMK"
     }
-
+    
     public static var name: String {
-        "Hong Kong"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Kyat"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Heard & McDonald Islands (HM)
-public enum HM: ShitcoinType {
+/// Tugrik (MNT)
+public enum MNT: ShitcoinType {
     public static var code: String {
-        "HM"
+        return "MNT"
     }
-
+    
     public static var name: String {
-        "Heard & McDonald Islands"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Tugrik"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Honduras (HN)
-public enum HN: ShitcoinType {
+/// Pataca (MOP)
+public enum MOP: ShitcoinType {
     public static var code: String {
-        "HN"
+        return "MOP"
     }
-
+    
     public static var name: String {
-        "Honduras"
+        return "Pataca"
     }
-
-    public static var symbol: String {
-        "L"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Croatia (HR)
-public enum HR: ShitcoinType {
+/// Ouguiya (MRU)
+public enum MRU: ShitcoinType {
     public static var code: String {
-        "HR"
+        return "MRU"
     }
-
+    
     public static var name: String {
-        "Croatia"
-    }
-
-    public static var symbol: String {
-        "kn"
+        return "Ouguiya"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Haiti (HT)
-public enum HT: ShitcoinType {
+/// Mauritius Rupee (MUR)
+public enum MUR: ShitcoinType {
     public static var code: String {
-        "HT"
+        return "MUR"
     }
-
+    
     public static var name: String {
-        "Haiti"
-    }
-
-    public static var symbol: String {
-        "G"
+        return "Mauritius Rupee"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Hungary (HU)
-public enum HU: ShitcoinType {
+/// Rufiyaa (MVR)
+public enum MVR: ShitcoinType {
     public static var code: String {
-        "HU"
+        return "MVR"
     }
-
+    
     public static var name: String {
-        "Hungary"
-    }
-
-    public static var symbol: String {
-        "Ft"
+        return "Rufiyaa"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Indonesia (ID)
-public enum ID: ShitcoinType {
+/// Malawi Kwacha (MWK)
+public enum MWK: ShitcoinType {
     public static var code: String {
-        "ID"
+        return "MWK"
     }
-
+    
     public static var name: String {
-        "Indonesia"
+        return "Malawi Kwacha"
     }
-
-    public static var symbol: String {
-        "Rp"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Ireland (IE)
-public enum IE: ShitcoinType {
+/// Mexican Peso (MXN)
+public enum MXN: ShitcoinType {
     public static var code: String {
-        "IE"
+        return "MXN"
     }
-
+    
     public static var name: String {
-        "Ireland"
-    }
-
-    public static var symbol: String {
-        "€"
+        return "Mexican Peso"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Israel (IL)
-public enum IL: ShitcoinType {
+/// Mexican Unidad de Inversion (UDI) (MXV)
+public enum MXV: ShitcoinType {
     public static var code: String {
-        "IL"
+        return "MXV"
     }
-
+    
     public static var name: String {
-        "Israel"
-    }
-
-    public static var symbol: String {
-        "₪"
+        return "Mexican Unidad de Inversion (UDI)"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Isle of Man (IM)
-public enum IM: ShitcoinType {
+/// Malaysian Ringgit (MYR)
+public enum MYR: ShitcoinType {
     public static var code: String {
-        "IM"
+        return "MYR"
     }
-
+    
     public static var name: String {
-        "Isle of Man"
-    }
-
-    public static var symbol: String {
-        "£"
+        return "Malaysian Ringgit"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// India (IN)
-public enum IN: ShitcoinType {
+/// Mozambique Metical (MZN)
+public enum MZN: ShitcoinType {
     public static var code: String {
-        "IN"
+        return "MZN"
     }
-
+    
     public static var name: String {
-        "India"
+        return "Mozambique Metical"
     }
-
-    public static var symbol: String {
-        "₹"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// British Indian Ocean Terr. (IO)
-public enum IO: ShitcoinType {
-    public static var code: String {
-        "IO"
-    }
-
-    public static var name: String {
-        "British Indian Ocean Terr."
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Iraq (IQ)
-public enum IQ: ShitcoinType {
-    public static var code: String {
-        "IQ"
-    }
-
-    public static var name: String {
-        "Iraq"
-    }
-
-    public static var symbol: String {
-        "د.ع"
-    }
-
-    public static var minorUnit: Int {
-        3
-    }
-}
-
-
-/// Iran (IR)
-public enum IR: ShitcoinType {
-    public static var code: String {
-        "IR"
-    }
-
-    public static var name: String {
-        "Iran"
-    }
-
-    public static var symbol: String {
-        "﷼"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Iceland (IS)
-public enum IS: ShitcoinType {
-    public static var code: String {
-        "IS"
-    }
-
-    public static var name: String {
-        "Iceland"
-    }
-
-    public static var symbol: String {
-        "kr"
-    }
-
-    public static var minorUnit: Int {
-        0
-    }
-}
-
-
-/// Italy (IT)
-public enum IT: ShitcoinType {
-    public static var code: String {
-        "IT"
-    }
-
-    public static var name: String {
-        "Italy"
-    }
-
-    public static var symbol: String {
-        "€"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Jersey (JE)
-public enum JE: ShitcoinType {
-    public static var code: String {
-        "JE"
-    }
-
-    public static var name: String {
-        "Jersey"
-    }
-
-    public static var symbol: String {
-        "£"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Jamaica (JM)
-public enum JM: ShitcoinType {
-    public static var code: String {
-        "JM"
-    }
-
-    public static var name: String {
-        "Jamaica"
-    }
-
-    public static var symbol: String {
-        "J$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Jordan (JO)
-public enum JO: ShitcoinType {
-    public static var code: String {
-        "JO"
-    }
-
-    public static var name: String {
-        "Jordan"
-    }
-
-    public static var symbol: String {
-        "JD"
-    }
-
-    public static var minorUnit: Int {
-        3
-    }
-}
-
-
-/// Japan (JP)
-public enum JP: ShitcoinType {
-    public static var code: String {
-        "JP"
-    }
-
-    public static var name: String {
-        "Japan"
-    }
-
-    public static var symbol: String {
-        "¥"
-    }
-
-    public static var minorUnit: Int {
-        0
-    }
-}
-
-
-/// Kenya (KE)
-public enum KE: ShitcoinType {
-    public static var code: String {
-        "KE"
-    }
-
-    public static var name: String {
-        "Kenya"
-    }
-
-    public static var symbol: String {
-        "Ksh"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Kyrgyzstan (KG)
-public enum KG: ShitcoinType {
-    public static var code: String {
-        "KG"
-    }
-
-    public static var name: String {
-        "Kyrgyzstan"
-    }
-
-    public static var symbol: String {
-        "лв"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Cambodia (KH)
-public enum KH: ShitcoinType {
-    public static var code: String {
-        "KH"
-    }
-
-    public static var name: String {
-        "Cambodia"
-    }
-
-    public static var symbol: String {
-        "៛"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Kiribati (KI)
-public enum KI: ShitcoinType {
-    public static var code: String {
-        "KI"
-    }
-
-    public static var name: String {
-        "Kiribati"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Comoros (KM)
-public enum KM: ShitcoinType {
-    public static var code: String {
-        "KM"
-    }
-
-    public static var name: String {
-        "Comoros"
-    }
-
-    public static var symbol: String {
-        "CF"
-    }
-
-    public static var minorUnit: Int {
-        0
-    }
-}
-
-
-/// Saint Kitts and Nevis (KN)
-public enum KN: ShitcoinType {
-    public static var code: String {
-        "KN"
-    }
-
-    public static var name: String {
-        "Saint Kitts and Nevis"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// North Korea (KP)
-public enum KP: ShitcoinType {
-    public static var code: String {
-        "KP"
-    }
-
-    public static var name: String {
-        "North Korea"
-    }
-
-    public static var symbol: String {
-        "₩"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// South Korea (KR)
-public enum KR: ShitcoinType {
-    public static var code: String {
-        "KR"
-    }
-
-    public static var name: String {
-        "South Korea"
-    }
-
-    public static var symbol: String {
-        "₩"
-    }
-
-    public static var minorUnit: Int {
-        0
-    }
-}
-
-
-/// Kuwait (KW)
-public enum KW: ShitcoinType {
-    public static var code: String {
-        "KW"
-    }
-
-    public static var name: String {
-        "Kuwait"
-    }
-
-
-    public static var symbol: String {
-        "د.ك"
-    }
-
-    public static var minorUnit: Int {
-        3
-    }
-}
-
-
-/// Cayman Islands (KY)
-public enum KY: ShitcoinType {
-    public static var code: String {
-        "KY"
-    }
-
-    public static var name: String {
-        "Cayman Islands"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Kazakhstan (KZ)
-public enum KZ: ShitcoinType {
-    public static var code: String {
-        "KZ"
-    }
-
-    public static var name: String {
-        "Kazakhstan"
-    }
-
-    public static var symbol: String {
-        "лв"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Laos (LA)
-public enum LA: ShitcoinType {
-    public static var code: String {
-        "LA"
-    }
-
-    public static var name: String {
-        "Laos"
-    }
-
-    public static var symbol: String {
-        "₭"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Lebanon (LB)
-public enum LB: ShitcoinType {
-    public static var code: String {
-        "LB"
-    }
-
-    public static var name: String {
-        "Lebanon"
-    }
-
-    public static var symbol: String {
-        "£"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Saint Lucia (LC)
-public enum LC: ShitcoinType {
-    public static var code: String {
-        "LC"
-    }
-
-    public static var name: String {
-        "Saint Lucia"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Liechtenstein (LI)
-public enum LI: ShitcoinType {
-    public static var code: String {
-        "LI"
-    }
-
-    public static var name: String {
-        "Liechtenstein"
-    }
-
-    public static var symbol: String {
-        "CHF"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Sri Lanka (LK)
-public enum LK: ShitcoinType {
-    public static var code: String {
-        "LK"
-    }
-
-    public static var name: String {
-        "Sri Lanka"
-    }
-
-    public static var symbol: String {
-        "₨"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Liberia (LR)
-public enum LR: ShitcoinType {
-    public static var code: String {
-        "LR"
-    }
-
-    public static var name: String {
-        "Liberia"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Lesotho (LS)
-public enum LS: ShitcoinType {
-    public static var code: String {
-        "LS"
-    }
-
-    public static var name: String {
-        "Lesotho"
-    }
-
-    public static var symbol: String {
-        "M"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Lithuania (LT)
-public enum LT: ShitcoinType {
-    public static var code: String {
-        "LT"
-    }
-
-    public static var name: String {
-        "Lithuania"
-    }
-
-    public static var symbol: String {
-        "Lt"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Luxembourg (LU)
-public enum LU: ShitcoinType {
-    public static var code: String {
-        "LU"
-    }
-
-    public static var name: String {
-        "Luxembourg"
-    }
-
-    public static var symbol: String {
-        "€"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Latvia (LV)
-public enum LV: ShitcoinType {
-    public static var code: String {
-        "LV"
-    }
-
-    public static var name: String {
-        "Latvia"
-    }
-
-    public static var symbol: String {
-        "€"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Libya (LY)
-public enum LY: ShitcoinType {
-    public static var code: String {
-        "LY"
-    }
-
-    public static var name: String {
-        "Libya"
-    }
-
-    public static var symbol: String {
-        "ل.د"
-    }
-
-    public static var minorUnit: Int {
-        3
-    }
-}
-
-
-/// Morocco (MA)
-public enum MA: ShitcoinType {
-    public static var code: String {
-        "MA"
-    }
-
-    public static var name: String {
-        "Morocco"
-    }
-
-    public static var symbol: String {
-        "د.م."
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Monaco (MC)
-public enum MC: ShitcoinType {
-    public static var code: String {
-        "MC"
-    }
-
-    public static var name: String {
-        "Monaco"
-    }
-
-    public static var symbol: String {
-        "€"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Moldova (MD)
-public enum MD: ShitcoinType {
-    public static var code: String {
-        "MD"
-    }
-
-    public static var name: String {
-        "Moldova"
-    }
-
-    public static var symbol: String {
-        "L"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Montenegro (ME)
-public enum ME: ShitcoinType {
-    public static var code: String {
-        "ME"
-    }
-
-    public static var name: String {
-        "Montenegro"
-    }
-
-    public static var symbol: String {
-        "€"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Saint Martin (MF)
-public enum MF: ShitcoinType {
-    public static var code: String {
-        "MF"
-    }
-
-    public static var name: String {
-        "Saint Martin"
-    }
-
-    public static var symbol: String {
-        "€"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Madagascar (MG)
-public enum MG: ShitcoinType {
-    public static var code: String {
-        "MG"
-    }
-
-    public static var name: String {
-        "Madagascar"
-    }
-
-    public static var symbol: String {
-        "Ar"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Marshall Islands (MH)
-public enum MH: ShitcoinType {
-    public static var code: String {
-        "MH"
-    }
-
-    public static var name: String {
-        "Marshall Islands"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Macedonia (MK)
-public enum MK: ShitcoinType {
-    public static var code: String {
-        "MK"
-    }
-
-    public static var name: String {
-        "Macedonia"
-    }
-
-    public static var symbol: String {
-        "ден"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Mali (ML)
-public enum ML: ShitcoinType {
-    public static var code: String {
-        "ML"
-    }
-
-    public static var name: String {
-        "Mali"
-    }
-
-    public static var symbol: String {
-        "CFA"
-    }
-
-    public static var minorUnit: Int {
-        0
-    }
-}
-
-
-/// Burma (MM)
-public enum MM: ShitcoinType {
-    public static var code: String {
-        "MM"
-    }
-
-    public static var name: String {
-        "Burma"
-    }
-
-    public static var symbol: String {
-        "K"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Mongolia (MN)
-public enum MN: ShitcoinType {
-    public static var code: String {
-        "MN"
-    }
-
-    public static var name: String {
-        "Mongolia"
-    }
-
-    public static var symbol: String {
-        "₮"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Macau (MO)
-public enum MO: ShitcoinType {
-    public static var code: String {
-        "MO"
-    }
-
-    public static var name: String {
-        "Macau"
-    }
-
-    public static var symbol: String {
-        "MOP$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Northern Mariana Islands (MP)
-public enum MP: ShitcoinType {
-    public static var code: String {
-        "MP"
-    }
-
-    public static var name: String {
-        "Northern Mariana Islands"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Martinique (MQ)
-public enum MQ: ShitcoinType {
-    public static var code: String {
-        "MQ"
-    }
-
-    public static var name: String {
-        "Martinique"
-    }
-
-    public static var symbol: String {
-        "€"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Mauritania (MR)
-public enum MR: ShitcoinType {
-    public static var code: String {
-        "MR"
-    }
-
-    public static var name: String {
-        "Mauritania"
-    }
-
-    public static var symbol: String {
-        "UM"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Montserrat (MS)
-public enum MS: ShitcoinType {
-    public static var code: String {
-        "MS"
-    }
-
-    public static var name: String {
-        "Montserrat"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Malta (MT)
-public enum MT: ShitcoinType {
-    public static var code: String {
-        "MT"
-    }
-
-    public static var name: String {
-        "Malta"
-    }
-
-    public static var symbol: String {
-        "€"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Mauritius (MU)
-public enum MU: ShitcoinType {
-    public static var code: String {
-        "MU"
-    }
-
-    public static var name: String {
-        "Mauritius"
-    }
-
-    public static var symbol: String {
-        "₨"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Maldives (MV)
-public enum MV: ShitcoinType {
-    public static var code: String {
-        "MV"
-    }
-
-    public static var name: String {
-        "Maldives"
-    }
-
-    public static var symbol: String {
-        "Rf."
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Malawi (MW)
-public enum MW: ShitcoinType {
-    public static var code: String {
-        "MW"
-    }
-
-    public static var name: String {
-        "Malawi"
-    }
-
-    public static var symbol: String {
-        "MK"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Mexico (MX)
-public enum MX: ShitcoinType {
-    public static var code: String {
-        "MX"
-    }
-
-    public static var name: String {
-        "Mexico"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Malaysia (MY)
-public enum MY: ShitcoinType {
-    public static var code: String {
-        "MY"
-    }
-
-    public static var name: String {
-        "Malaysia"
-    }
-
-    public static var symbol: String {
-        "RM"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Mozambique (MZ)
-public enum MZ: ShitcoinType {
-    public static var code: String {
-        "MZ"
-    }
-
-    public static var name: String {
-        "Mozambique"
-    }
-
-    public static var symbol: String {
-        "MT"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Namibia (NA)
-public enum NA: ShitcoinType {
-    public static var code: String {
-        "NA"
-    }
-
-    public static var name: String {
-        "Namibia"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// New Caledonia (NC)
-public enum NC: ShitcoinType {
-    public static var code: String {
-        "NC"
-    }
-
-    public static var name: String {
-        "New Caledonia"
-    }
-
-    public static var symbol: String {
-        "CFP"
-    }
-
-    public static var minorUnit: Int {
-        0
-    }
-}
-
-
-/// Niger (NE)
-public enum NE: ShitcoinType {
-    public static var code: String {
-        "NE"
-    }
-
-    public static var name: String {
-        "Niger"
-    }
-
-    public static var symbol: String {
-        "CFA"
-    }
-
-    public static var minorUnit: Int {
-        0
-    }
-}
-
-
-/// Norfolk Island (NF)
-public enum NF: ShitcoinType {
-    public static var code: String {
-        "NF"
-    }
-
-    public static var name: String {
-        "Norfolk Island"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Nigeria (NG)
-public enum NG: ShitcoinType {
-    public static var code: String {
-        "NG"
-    }
-
-    public static var name: String {
-        "Nigeria"
-    }
-
-    public static var symbol: String {
-        "₦"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Nicaragua (NI)
-public enum NI: ShitcoinType {
-    public static var code: String {
-        "NI"
-    }
-
-    public static var name: String {
-        "Nicaragua"
-    }
-
-    public static var symbol: String {
-        "C$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Netherlands (NL)
-public enum NL: ShitcoinType {
-    public static var code: String {
-        "NL"
-    }
-
-    public static var name: String {
-        "Netherlands"
-    }
-
-    public static var symbol: String {
-        "€"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Norway (NO)
-public enum NO: ShitcoinType {
-    public static var code: String {
-        "NO"
-    }
-
-    public static var name: String {
-        "Norway"
-    }
-
-    public static var symbol: String {
-        "kr"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Nepal (NP)
-public enum NP: ShitcoinType {
-    public static var code: String {
-        "NP"
-    }
-
-    public static var name: String {
-        "Nepal"
-    }
-
-    public static var symbol: String {
-        "₨"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Nauru (NR)
-public enum NR: ShitcoinType {
-    public static var code: String {
-        "NR"
-    }
-
-    public static var name: String {
-        "Nauru"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Niue (NU)
-public enum NU: ShitcoinType {
-    public static var code: String {
-        "NU"
-    }
-
-    public static var name: String {
-        "Niue"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// New Zealand (NZ)
-public enum NZ: ShitcoinType {
-    public static var code: String {
-        "NZ"
-    }
-
-    public static var name: String {
-        "New Zealand"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Oman (OM)
-public enum OM: ShitcoinType {
-    public static var code: String {
-        "OM"
-    }
-
-    public static var name: String {
-        "Oman"
-    }
-
-    public static var symbol: String {
-        "﷼"
-    }
-
-    public static var minorUnit: Int {
-        3
-    }
-}
-
-
-/// Panama (PA)
-public enum PA: ShitcoinType {
-    public static var code: String {
-        "PA"
-    }
-
-    public static var name: String {
-        "Panama"
-    }
-
-    public static var symbol: String {
-        "B/."
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Peru (PE)
-public enum PE: ShitcoinType {
-    public static var code: String {
-        "PE"
-    }
-
-    public static var name: String {
-        "Peru"
-    }
-
-    public static var symbol: String {
-        "S/."
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// French Polynesia (PF)
-public enum PF: ShitcoinType {
-    public static var code: String {
-        "PF"
-    }
-
-    public static var name: String {
-        "French Polynesia"
-    }
-
-    public static var symbol: String {
-        "CFP"
-    }
-
-    public static var minorUnit: Int {
-        0
-    }
-}
-
-
-/// Papua New Guinea (PG)
-public enum PG: ShitcoinType {
-    public static var code: String {
-        "PG"
-    }
-
-    public static var name: String {
-        "Papua New Guinea"
-    }
-
-    public static var symbol: String {
-        "K"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Philippines (PH)
-public enum PH: ShitcoinType {
-    public static var code: String {
-        "PH"
-    }
-
-    public static var name: String {
-        "Philippines"
-    }
-
-    public static var symbol: String {
-        "₱"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Pakistan (PK)
-public enum PK: ShitcoinType {
-    public static var code: String {
-        "PK"
-    }
-
-    public static var name: String {
-        "Pakistan"
-    }
-
-    public static var symbol: String {
-        "₨"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Poland (PL)
-public enum PL: ShitcoinType {
-    public static var code: String {
-        "PL"
-    }
-
-    public static var name: String {
-        "Poland"
-    }
-
-    public static var symbol: String {
-        "zł"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Saint Pierre & Miquelon (PM)
-public enum PM: ShitcoinType {
-    public static var code: String {
-        "PM"
-    }
-
-    public static var name: String {
-        "Saint Pierre & Miquelon"
-    }
-
-    public static var symbol: String {
-        "€"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Pitcairn Islands (PN)
-public enum PN: ShitcoinType {
-    public static var code: String {
-        "PN"
-    }
-
-    public static var name: String {
-        "Pitcairn Islands"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Puerto Rico (PR)
-public enum PR: ShitcoinType {
-    public static var code: String {
-        "PR"
-    }
-
-    public static var name: String {
-        "Puerto Rico"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Portugal (PT)
-public enum PT: ShitcoinType {
-    public static var code: String {
-        "PT"
-    }
-
-    public static var name: String {
-        "Portugal"
-    }
-
-    public static var symbol: String {
-        "€"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Palau (PW)
-public enum PW: ShitcoinType {
-    public static var code: String {
-        "PW"
-    }
-
-    public static var name: String {
-        "Palau"
-    }
-
-    public static var symbol: String {
-        "$"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Paraguay (PY)
-public enum PY: ShitcoinType {
-    public static var code: String {
-        "PY"
-    }
-
-    public static var name: String {
-        "Paraguay"
-    }
-
-    public static var symbol: String {
-        "Gs"
-    }
-
-    public static var minorUnit: Int {
-        0
-    }
-}
-
-
-/// Qatar (QA)
-public enum QA: ShitcoinType {
-    public static var code: String {
-        "QA"
-    }
-
-    public static var name: String {
-        "Qatar"
-    }
-
-    public static var symbol: String {
-        "﷼"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Réunion (RE)
-public enum RE: ShitcoinType {
-    public static var code: String {
-        "RE"
-    }
-
-    public static var name: String {
-        "Réunion"
-    }
-
-    public static var symbol: String {
-        "€"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Romania (RO)
-public enum RO: ShitcoinType {
-    public static var code: String {
-        "RO"
-    }
-
-    public static var name: String {
-        "Romania"
-    }
-
-    public static var symbol: String {
-        "lei"
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Serbia (RS)
-public enum RS: ShitcoinType {
-    public static var code: String {
-        "RS"
-    }
-
-    public static var name: String {
-        "Serbia"
-    }
-
-    public static var symbol: String {
-        "Дин."
-    }
-
-    public static var minorUnit: Int {
-        2
-    }
-}
-
-
-/// Russia (RU)
-public enum RU: ShitcoinType {
-    public static var code: String {
-        "RU"
-    }
-
-    public static var name: String {
-        "Russia"
-    }
-
-    public static var symbol: String {
-        "руб"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Rwanda (RW)
-public enum RW: ShitcoinType {
+/// Namibia Dollar (NAD)
+public enum NAD: ShitcoinType {
     public static var code: String {
-        "RW"
+        return "NAD"
     }
-
+    
     public static var name: String {
-        "Rwanda"
-    }
-
-    public static var symbol: String {
-        "FRw"
+        return "Namibia Dollar"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
 
-
-/// Saudi Arabia (SA)
-public enum SA: ShitcoinType {
+/// Naira (NGN)
+public enum NGN: ShitcoinType {
     public static var code: String {
-        "SA"
+        return "NGN"
     }
-
+    
     public static var name: String {
-        "Saudi Arabia"
-    }
-
-    public static var symbol: String {
-        "﷼"
+        return "Naira"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Solomon Islands (SB)
-public enum SB: ShitcoinType {
+/// Cordoba Oro (NIO)
+public enum NIO: ShitcoinType {
     public static var code: String {
-        "SB"
+        return "NIO"
     }
-
+    
     public static var name: String {
-        "Solomon Islands"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Cordoba Oro"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Seychelles (SC)
-public enum SC: ShitcoinType {
+/// Norwegian Krone (NOK)
+public enum NOK: ShitcoinType {
     public static var code: String {
-        "SC"
+        return "NOK"
     }
-
+    
     public static var name: String {
-        "Seychelles"
+        return "Norwegian Krone"
     }
-
-    public static var symbol: String {
-        "₨"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Sudan (SD)
-public enum SD: ShitcoinType {
+/// Nepalese Rupee (NPR)
+public enum NPR: ShitcoinType {
     public static var code: String {
-        "SD"
+        return "NPR"
     }
-
+    
     public static var name: String {
-        "Sudan"
-    }
-
-    public static var symbol: String {
-        "£"
+        return "Nepalese Rupee"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Sweden (SE)
-public enum SE: ShitcoinType {
+/// New Zealand Dollar (NZD)
+public enum NZD: ShitcoinType {
     public static var code: String {
-        "SE"
+        return "NZD"
     }
-
+    
     public static var name: String {
-        "Sweden"
-    }
-
-    public static var symbol: String {
-        "kr"
+        return "New Zealand Dollar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Singapore (SG)
-public enum SG: ShitcoinType {
+/// Rial Omani (OMR)
+public enum OMR: ShitcoinType {
     public static var code: String {
-        "SG"
+        return "OMR"
     }
-
+    
     public static var name: String {
-        "Singapore"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Rial Omani"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 3
     }
 }
-
 
-/// Saint Helena (SH)
-public enum SH: ShitcoinType {
+/// Balboa (PAB)
+public enum PAB: ShitcoinType {
     public static var code: String {
-        "SH"
+        return "PAB"
     }
-
+    
     public static var name: String {
-        "Saint Helena"
-    }
-
-    public static var symbol: String {
-        "£"
+        return "Balboa"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Slovenia (SI)
-public enum SI: ShitcoinType {
+/// Sol (PEN)
+public enum PEN: ShitcoinType {
     public static var code: String {
-        "SI"
+        return "PEN"
     }
-
+    
     public static var name: String {
-        "Slovenia"
+        return "Sol"
     }
-
-    public static var symbol: String {
-        "€"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Svalbard and Jan Mayen (SJ)
-public enum SJ: ShitcoinType {
+/// Kina (PGK)
+public enum PGK: ShitcoinType {
     public static var code: String {
-        "SJ"
+        return "PGK"
     }
-
+    
     public static var name: String {
-        "Svalbard and Jan Mayen"
-    }
-
-    public static var symbol: String {
-        "kr"
+        return "Kina"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Slovakia (SK)
-public enum SK: ShitcoinType {
+/// Philippine Piso (PHP)
+public enum PHP: ShitcoinType {
     public static var code: String {
-        "SK"
+        return "PHP"
     }
-
+    
     public static var name: String {
-        "Slovakia"
-    }
-
-    public static var symbol: String {
-        "€"
+        return "Philippine Piso"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Sierra Leone (SL)
-public enum SL: ShitcoinType {
+/// Pakistan Rupee (PKR)
+public enum PKR: ShitcoinType {
     public static var code: String {
-        "SL"
+        return "PKR"
     }
-
+    
     public static var name: String {
-        "Sierra Leone"
-    }
-
-    public static var symbol: String {
-        "Le"
+        return "Pakistan Rupee"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// San Marino (SM)
-public enum SM: ShitcoinType {
+/// Zloty (PLN)
+public enum PLN: ShitcoinType {
     public static var code: String {
-        "SM"
+        return "PLN"
     }
-
+    
     public static var name: String {
-        "San Marino"
+        return "Zloty"
     }
-
-    public static var symbol: String {
-        "€"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Senegal (SN)
-public enum SN: ShitcoinType {
+/// Guarani (PYG)
+public enum PYG: ShitcoinType {
     public static var code: String {
-        "SN"
+        return "PYG"
     }
-
+    
     public static var name: String {
-        "Senegal"
-    }
-
-    public static var symbol: String {
-        "CFA"
+        return "Guarani"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 0
     }
 }
 
-
-/// Somalia (SO)
-public enum SO: ShitcoinType {
+/// Qatari Rial (QAR)
+public enum QAR: ShitcoinType {
     public static var code: String {
-        "SO"
+        return "QAR"
     }
-
+    
     public static var name: String {
-        "Somalia"
-    }
-
-    public static var symbol: String {
-        "S"
+        return "Qatari Rial"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Suriname (SR)
-public enum SR: ShitcoinType {
+/// Romanian Leu (RON)
+public enum RON: ShitcoinType {
     public static var code: String {
-        "SR"
+        return "RON"
     }
-
+    
     public static var name: String {
-        "Suriname"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Romanian Leu"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// South Sudan (SS)
-public enum SS: ShitcoinType {
+/// Serbian Dinar (RSD)
+public enum RSD: ShitcoinType {
     public static var code: String {
-        "SS"
+        return "RSD"
     }
-
+    
     public static var name: String {
-        "South Sudan"
+        return "Serbian Dinar"
     }
-
-    public static var symbol: String {
-        "£"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Sao Tome and Principe (ST)
-public enum ST: ShitcoinType {
+/// Russian Ruble (RUB)
+public enum RUB: ShitcoinType {
     public static var code: String {
-        "ST"
+        return "RUB"
     }
-
+    
     public static var name: String {
-        "Sao Tome and Principe"
-    }
-
-    public static var symbol: String {
-        "Db"
+        return "Russian Ruble"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// El Salvador (SV)
-public enum SV: ShitcoinType {
+/// Rwanda Franc (RWF)
+public enum RWF: ShitcoinType {
     public static var code: String {
-        "SV"
+        return "RWF"
     }
-
+    
     public static var name: String {
-        "El Salvador"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Rwanda Franc"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 0
     }
 }
-
 
-/// Sint Maarten (SX)
-public enum SX: ShitcoinType {
+/// Saudi Riyal (SAR)
+public enum SAR: ShitcoinType {
     public static var code: String {
-        "SX"
+        return "SAR"
     }
-
+    
     public static var name: String {
-        "Sint Maarten"
-    }
-
-    public static var symbol: String {
-        "ƒ"
+        return "Saudi Riyal"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Syria (SY)
-public enum SY: ShitcoinType {
+/// Solomon Islands Dollar (SBD)
+public enum SBD: ShitcoinType {
     public static var code: String {
-        "SY"
+        return "SBD"
     }
-
+    
     public static var name: String {
-        "Syria"
+        return "Solomon Islands Dollar"
     }
-
-    public static var symbol: String {
-        "£"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Swaziland (SZ)
-public enum SZ: ShitcoinType {
+/// Seychelles Rupee (SCR)
+public enum SCR: ShitcoinType {
     public static var code: String {
-        "SZ"
+        return "SCR"
     }
-
+    
     public static var name: String {
-        "Swaziland"
-    }
-
-    public static var symbol: String {
-        "E"
+        return "Seychelles Rupee"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Turks and Caicos Islands (TC)
-public enum TC: ShitcoinType {
+/// Sudanese Pound (SDG)
+public enum SDG: ShitcoinType {
     public static var code: String {
-        "TC"
+        return "SDG"
     }
-
+    
     public static var name: String {
-        "Turks and Caicos Islands"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Sudanese Pound"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Chad (TD)
-public enum TD: ShitcoinType {
+/// Swedish Krona (SEK)
+public enum SEK: ShitcoinType {
     public static var code: String {
-        "TD"
+        return "SEK"
     }
-
+    
     public static var name: String {
-        "Chad"
-    }
-
-    public static var symbol: String {
-        "CFA"
+        return "Swedish Krona"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
 
-
-/// French Southern Territories (TF)
-public enum TF: ShitcoinType {
+/// Singapore Dollar (SGD)
+public enum SGD: ShitcoinType {
     public static var code: String {
-        "TF"
+        return "SGD"
     }
-
+    
     public static var name: String {
-        "French Southern Territories"
+        return "Singapore Dollar"
     }
-
-    public static var symbol: String {
-        "€"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Togo (TG)
-public enum TG: ShitcoinType {
+/// Saint Helena Pound (SHP)
+public enum SHP: ShitcoinType {
     public static var code: String {
-        "TG"
+        return "SHP"
     }
-
+    
     public static var name: String {
-        "Togo"
-    }
-
-    public static var symbol: String {
-        "CFA"
+        return "Saint Helena Pound"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
 
-
-/// Thailand (TH)
-public enum TH: ShitcoinType {
+/// Leone (SLL)
+public enum SLL: ShitcoinType {
     public static var code: String {
-        "TH"
+        return "SLL"
     }
-
+    
     public static var name: String {
-        "Thailand"
-    }
-
-    public static var symbol: String {
-        "฿"
+        return "Leone"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Tajikistan (TJ)
-public enum TJ: ShitcoinType {
+/// Somali Shilling (SOS)
+public enum SOS: ShitcoinType {
     public static var code: String {
-        "TJ"
+        return "SOS"
     }
-
+    
     public static var name: String {
-        "Tajikistan"
-    }
-
-    public static var symbol: String {
-        "SM"
+        return "Somali Shilling"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Tokelau (TK)
-public enum TK: ShitcoinType {
+/// Surinam Dollar (SRD)
+public enum SRD: ShitcoinType {
     public static var code: String {
-        "TK"
+        return "SRD"
     }
-
+    
     public static var name: String {
-        "Tokelau"
+        return "Surinam Dollar"
     }
-
-    public static var symbol: String {
-        "$"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Timor-Leste (TL)
-public enum TL: ShitcoinType {
+/// South Sudanese Pound (SSP)
+public enum SSP: ShitcoinType {
     public static var code: String {
-        "TL"
+        return "SSP"
     }
-
+    
     public static var name: String {
-        "Timor-Leste"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "South Sudanese Pound"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Turkmenistan (TM)
-public enum TM: ShitcoinType {
+/// Dobra (STN)
+public enum STN: ShitcoinType {
     public static var code: String {
-        "TM"
+        return "STN"
     }
-
+    
     public static var name: String {
-        "Turkmenistan"
-    }
-
-    public static var symbol: String {
-        "m"
+        return "Dobra"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Tunisia (TN)
-public enum TN: ShitcoinType {
+/// El Salvador Colon (SVC)
+public enum SVC: ShitcoinType {
     public static var code: String {
-        "TN"
+        return "SVC"
     }
-
+    
     public static var name: String {
-        "Tunisia"
-    }
-
-    public static var symbol: String {
-        "د.ت"
+        return "El Salvador Colon"
     }
-
+    
     public static var minorUnit: Int {
-        3
+        return 2
     }
 }
 
-
-/// Tonga (TO)
-public enum TO: ShitcoinType {
+/// Syrian Pound (SYP)
+public enum SYP: ShitcoinType {
     public static var code: String {
-        "TO"
+        return "SYP"
     }
-
+    
     public static var name: String {
-        "Tonga"
+        return "Syrian Pound"
     }
-
-    public static var symbol: String {
-        "T$"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Turkey (TR)
-public enum TR: ShitcoinType {
+/// Lilangeni (SZL)
+public enum SZL: ShitcoinType {
     public static var code: String {
-        "TR"
+        return "SZL"
     }
-
+    
     public static var name: String {
-        "Turkey"
-    }
-
-    public static var symbol: String {
-        "TL"
+        return "Lilangeni"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Trinidad and Tobago (TT)
-public enum TT: ShitcoinType {
+/// Baht (THB)
+public enum THB: ShitcoinType {
     public static var code: String {
-        "TT"
+        return "THB"
     }
-
+    
     public static var name: String {
-        "Trinidad and Tobago"
-    }
-
-    public static var symbol: String {
-        "TT$"
+        return "Baht"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Tuvalu (TV)
-public enum TV: ShitcoinType {
+/// Somoni (TJS)
+public enum TJS: ShitcoinType {
     public static var code: String {
-        "TV"
+        return "TJS"
     }
-
+    
     public static var name: String {
-        "Tuvalu"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Somoni"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Taiwan (TW)
-public enum TW: ShitcoinType {
+/// Turkmenistan New Manat (TMT)
+public enum TMT: ShitcoinType {
     public static var code: String {
-        "TW"
+        return "TMT"
     }
-
+    
     public static var name: String {
-        "Taiwan"
+        return "Turkmenistan New Manat"
     }
-
-    public static var symbol: String {
-        "NT$"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Tanzania (TZ)
-public enum TZ: ShitcoinType {
+/// Tunisian Dinar (TND)
+public enum TND: ShitcoinType {
     public static var code: String {
-        "TZ"
+        return "TND"
     }
-
+    
     public static var name: String {
-        "Tanzania"
-    }
-
-    public static var symbol: String {
-        "TSh"
+        return "Tunisian Dinar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 3
     }
 }
 
-
-/// Ukraine (UA)
-public enum UA: ShitcoinType {
+/// Pa’anga (TOP)
+public enum TOP: ShitcoinType {
     public static var code: String {
-        "UA"
+        return "TOP"
     }
-
+    
     public static var name: String {
-        "Ukraine"
-    }
-
-    public static var symbol: String {
-        "₴"
+        return "Pa’anga"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Uganda (UG)
-public enum UG: ShitcoinType {
+/// Turkish Lira (TRY)
+public enum TRY: ShitcoinType {
     public static var code: String {
-        "UG"
+        return "TRY"
     }
-
+    
     public static var name: String {
-        "Uganda"
-    }
-
-    public static var symbol: String {
-        "USh"
+        return "Turkish Lira"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
 
-
-/// Minor Outlying Islands (UM)
-public enum UM: ShitcoinType {
+/// Trinidad and Tobago Dollar (TTD)
+public enum TTD: ShitcoinType {
     public static var code: String {
-        "UM"
+        return "TTD"
     }
-
+    
     public static var name: String {
-        "Minor Outlying Islands"
+        return "Trinidad and Tobago Dollar"
     }
-
-    public static var symbol: String {
-        "$"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// United States (US)
-public enum US: ShitcoinType {
+/// New Taiwan Dollar (TWD)
+public enum TWD: ShitcoinType {
     public static var code: String {
-        "US"
+        return "TWD"
     }
-
+    
     public static var name: String {
-        "United States"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "New Taiwan Dollar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Uruguay (UY)
-public enum UY: ShitcoinType {
+/// Tanzanian Shilling (TZS)
+public enum TZS: ShitcoinType {
     public static var code: String {
-        "UY"
+        return "TZS"
     }
-
+    
     public static var name: String {
-        "Uruguay"
-    }
-
-    public static var symbol: String {
-        "$U"
+        return "Tanzanian Shilling"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
-
 
-/// Uzbekistan (UZ)
-public enum UZ: ShitcoinType {
+/// Hryvnia (UAH)
+public enum UAH: ShitcoinType {
     public static var code: String {
-        "UZ"
+        return "UAH"
     }
-
+    
     public static var name: String {
-        "Uzbekistan"
-    }
-
-    public static var symbol: String {
-        "лв"
+        return "Hryvnia"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Vatican (VA)
-public enum VA: ShitcoinType {
+/// Uganda Shilling (UGX)
+public enum UGX: ShitcoinType {
     public static var code: String {
-        "VA"
+        return "UGX"
     }
-
+    
     public static var name: String {
-        "Vatican"
+        return "Uganda Shilling"
     }
-
-    public static var symbol: String {
-        "€"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 0
     }
 }
-
 
-/// St Vincent & the Grenadines (VC)
-public enum VC: ShitcoinType {
+/// US Dollar (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "VC"
+        return "USD"
     }
-
+    
     public static var name: String {
-        "St Vincent & the Grenadines"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "US Dollar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Venezuela (VE)
-public enum VE: ShitcoinType {
+/// Uruguay Peso en Unidades Indexadas (UI) (UYI)
+public enum UYI: ShitcoinType {
     public static var code: String {
-        "VE"
+        return "UYI"
     }
-
+    
     public static var name: String {
-        "Venezuela"
-    }
-
-    public static var symbol: String {
-        "Bs"
+        return "Uruguay Peso en Unidades Indexadas (UI)"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 0
     }
 }
-
 
-/// British Virgin Islands (VG)
-public enum VG: ShitcoinType {
+/// Peso Uruguayo (UYU)
+public enum UYU: ShitcoinType {
     public static var code: String {
-        "VG"
+        return "UYU"
     }
-
+    
     public static var name: String {
-        "British Virgin Islands"
-    }
-
-    public static var symbol: String {
-        "$"
+        return "Peso Uruguayo"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// U.S. Virgin Islands (VI)
-public enum VI: ShitcoinType {
+/// Uzbekistan Sum (UZS)
+public enum UZS: ShitcoinType {
     public static var code: String {
-        "VI"
+        return "UZS"
     }
-
+    
     public static var name: String {
-        "U.S. Virgin Islands"
+        return "Uzbekistan Sum"
     }
-
-    public static var symbol: String {
-        "$"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Vietnam (VN)
-public enum VN: ShitcoinType {
+/// Bolívar (VEF)
+public enum VEF: ShitcoinType {
     public static var code: String {
-        "VN"
+        return "VEF"
     }
-
+    
     public static var name: String {
-        "Vietnam"
-    }
-
-    public static var symbol: String {
-        "₫"
+        return "Bolívar"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 2
     }
 }
 
-
-/// Vanuatu (VU)
-public enum VU: ShitcoinType {
+/// Dong (VND)
+public enum VND: ShitcoinType {
     public static var code: String {
-        "VU"
+        return "VND"
     }
-
+    
     public static var name: String {
-        "Vanuatu"
-    }
-
-    public static var symbol: String {
-        "VT"
+        return "Dong"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 0
     }
 }
-
 
-/// Wallis and Futuna (WF)
-public enum WF: ShitcoinType {
+/// Vatu (VUV)
+public enum VUV: ShitcoinType {
     public static var code: String {
-        "WF"
+        return "VUV"
     }
-
+    
     public static var name: String {
-        "Wallis and Futuna"
-    }
-
-    public static var symbol: String {
-        "CFP"
+        return "Vatu"
     }
-
+    
     public static var minorUnit: Int {
-        0
+        return 0
     }
 }
 
-
-/// Samoa (WS)
-public enum WS: ShitcoinType {
+/// Tala (WST)
+public enum WST: ShitcoinType {
     public static var code: String {
-        "WS"
+        return "WST"
     }
-
+    
     public static var name: String {
-        "Samoa"
+        return "Tala"
     }
-
-    public static var symbol: String {
-        "WS$"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Yemen (YE)
-public enum YE: ShitcoinType {
+/// East Caribbean Dollar (XCD)
+public enum XCD: ShitcoinType {
     public static var code: String {
-        "YE"
+        return "XCD"
     }
-
+    
     public static var name: String {
-        "Yemen"
-    }
-
-    public static var symbol: String {
-        "﷼"
+        return "East Caribbean Dollar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Mayotte (YT)
-public enum YT: ShitcoinType {
+/// Yemeni Rial (YER)
+public enum YER: ShitcoinType {
     public static var code: String {
-        "YT"
+        return "YER"
     }
-
+    
     public static var name: String {
-        "Mayotte"
-    }
-
-    public static var symbol: String {
-        "€"
+        return "Yemeni Rial"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// South Africa (ZA)
-public enum ZA: ShitcoinType {
+/// Rand (ZAR)
+public enum ZAR: ShitcoinType {
     public static var code: String {
-        "ZA"
+        return "ZAR"
     }
-
+    
     public static var name: String {
-        "South Africa"
-    }
-
-    public static var symbol: String {
-        "R"
+        return "Rand"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
 
-
-/// Zambia (ZM)
-public enum ZM: ShitcoinType {
+/// Zambian Kwacha (ZMW)
+public enum ZMW: ShitcoinType {
     public static var code: String {
-        "ZM"
+        return "ZMW"
     }
-
+    
     public static var name: String {
-        "Zambia"
+        return "Zambian Kwacha"
     }
-
-    public static var symbol: String {
-        "ZK"
-    }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
-
 
-/// Zimbabwe (ZW)
-public enum ZW: ShitcoinType {
+/// Zimbabwe Dollar (ZWL)
+public enum ZWL: ShitcoinType {
     public static var code: String {
-        "ZW"
+        return "ZWL"
     }
-
+    
     public static var name: String {
-        "Zimbabwe"
-    }
-
-    public static var symbol: String {
-        "Z$"
+        return "Zimbabwe Dollar"
     }
-
+    
     public static var minorUnit: Int {
-        2
+        return 2
     }
 }
+

@@ -15,7 +15,6 @@ public protocol ShitcoinType {
     static var name: String { get }
     
     
-    
      /// The number of decimal places used to express
      /// any minor units for the shitcoin.
      ///

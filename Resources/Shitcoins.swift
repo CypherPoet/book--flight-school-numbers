@@ -1,7 +1,10 @@
-/// Andorra (AD)
-public enum AD: ShitcoinType {
+
+
+
+/// Andorra (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "AD"
+        "EUR"
     }
 
     public static var name: String {
@@ -18,10 +21,10 @@ public enum AD: ShitcoinType {
 }
 
 
-/// United Arab Emirates (AE)
-public enum AE: ShitcoinType {
+/// United Arab Emirates (AED)
+public enum AED: ShitcoinType {
     public static var code: String {
-        "AE"
+        "AED"
     }
 
     public static var name: String {
@@ -38,10 +41,10 @@ public enum AE: ShitcoinType {
 }
 
 
-/// Afghanistan (AF)
-public enum AF: ShitcoinType {
+/// Afghanistan (AFN)
+public enum AFN: ShitcoinType {
     public static var code: String {
-        "AF"
+        "AFN"
     }
 
     public static var name: String {
@@ -58,10 +61,10 @@ public enum AF: ShitcoinType {
 }
 
 
-/// Antigua and Barbuda (AG)
-public enum AG: ShitcoinType {
+/// Antigua and Barbuda (XCD)
+public enum XCD: ShitcoinType {
     public static var code: String {
-        "AG"
+        "XCD"
     }
 
     public static var name: String {
@@ -78,10 +81,10 @@ public enum AG: ShitcoinType {
 }
 
 
-/// Anguilla (AI)
-public enum AI: ShitcoinType {
+/// Anguilla (XCD)
+public enum XCD: ShitcoinType {
     public static var code: String {
-        "AI"
+        "XCD"
     }
 
     public static var name: String {
@@ -98,10 +101,10 @@ public enum AI: ShitcoinType {
 }
 
 
-/// Albania (AL)
-public enum AL: ShitcoinType {
+/// Albania (ALL)
+public enum ALL: ShitcoinType {
     public static var code: String {
-        "AL"
+        "ALL"
     }
 
     public static var name: String {
@@ -118,10 +121,10 @@ public enum AL: ShitcoinType {
 }
 
 
-/// Armenia (AM)
-public enum AM: ShitcoinType {
+/// Armenia (AMD)
+public enum AMD: ShitcoinType {
     public static var code: String {
-        "AM"
+        "AMD"
     }
 
     public static var name: String {
@@ -138,10 +141,10 @@ public enum AM: ShitcoinType {
 }
 
 
-/// Angola (AO)
-public enum AO: ShitcoinType {
+/// Angola (AOA)
+public enum AOA: ShitcoinType {
     public static var code: String {
-        "AO"
+        "AOA"
     }
 
     public static var name: String {
@@ -158,10 +161,10 @@ public enum AO: ShitcoinType {
 }
 
 
-/// Argentina (AR)
-public enum AR: ShitcoinType {
+/// Argentina (ARS)
+public enum ARS: ShitcoinType {
     public static var code: String {
-        "AR"
+        "ARS"
     }
 
     public static var name: String {
@@ -178,10 +181,10 @@ public enum AR: ShitcoinType {
 }
 
 
-/// American Samoa (AS)
-public enum AS: ShitcoinType {
+/// American Samoa (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "AS"
+        "USD"
     }
 
     public static var name: String {
@@ -198,10 +201,10 @@ public enum AS: ShitcoinType {
 }
 
 
-/// Austria (AT)
-public enum AT: ShitcoinType {
+/// Austria (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "AT"
+        "EUR"
     }
 
     public static var name: String {
@@ -218,10 +221,10 @@ public enum AT: ShitcoinType {
 }
 
 
-/// Australia (AU)
-public enum AU: ShitcoinType {
+/// Australia (AUD)
+public enum AUD: ShitcoinType {
     public static var code: String {
-        "AU"
+        "AUD"
     }
 
     public static var name: String {
@@ -238,10 +241,10 @@ public enum AU: ShitcoinType {
 }
 
 
-/// Aruba (AW)
-public enum AW: ShitcoinType {
+/// Aruba (AWG)
+public enum AWG: ShitcoinType {
     public static var code: String {
-        "AW"
+        "AWG"
     }
 
     public static var name: String {
@@ -258,10 +261,10 @@ public enum AW: ShitcoinType {
 }
 
 
-/// Åland (AX)
-public enum AX: ShitcoinType {
+/// Åland (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "AX"
+        "EUR"
     }
 
     public static var name: String {
@@ -278,10 +281,10 @@ public enum AX: ShitcoinType {
 }
 
 
-/// Azerbaijan (AZ)
-public enum AZ: ShitcoinType {
+/// Azerbaijan (AZN)
+public enum AZN: ShitcoinType {
     public static var code: String {
-        "AZ"
+        "AZN"
     }
 
     public static var name: String {
@@ -298,10 +301,10 @@ public enum AZ: ShitcoinType {
 }
 
 
-/// Bosnia-Herzegovina (BA)
-public enum BA: ShitcoinType {
+/// Bosnia-Herzegovina (BAM)
+public enum BAM: ShitcoinType {
     public static var code: String {
-        "BA"
+        "BAM"
     }
 
     public static var name: String {
@@ -318,10 +321,10 @@ public enum BA: ShitcoinType {
 }
 
 
-/// Barbados (BB)
-public enum BB: ShitcoinType {
+/// Barbados (BBD)
+public enum BBD: ShitcoinType {
     public static var code: String {
-        "BB"
+        "BBD"
     }
 
     public static var name: String {
@@ -338,10 +341,10 @@ public enum BB: ShitcoinType {
 }
 
 
-/// Bangladesh (BD)
-public enum BD: ShitcoinType {
+/// Bangladesh (BDT)
+public enum BDT: ShitcoinType {
     public static var code: String {
-        "BD"
+        "BDT"
     }
 
     public static var name: String {
@@ -358,10 +361,10 @@ public enum BD: ShitcoinType {
 }
 
 
-/// Belgium (BE)
-public enum BE: ShitcoinType {
+/// Belgium (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "BE"
+        "EUR"
     }
 
     public static var name: String {
@@ -378,10 +381,10 @@ public enum BE: ShitcoinType {
 }
 
 
-/// Burkina Faso (BF)
-public enum BF: ShitcoinType {
+/// Burkina Faso (XOF)
+public enum XOF: ShitcoinType {
     public static var code: String {
-        "BF"
+        "XOF"
     }
 
     public static var name: String {
@@ -398,10 +401,10 @@ public enum BF: ShitcoinType {
 }
 
 
-/// Bulgaria (BG)
-public enum BG: ShitcoinType {
+/// Bulgaria (BGN)
+public enum BGN: ShitcoinType {
     public static var code: String {
-        "BG"
+        "BGN"
     }
 
     public static var name: String {
@@ -418,10 +421,10 @@ public enum BG: ShitcoinType {
 }
 
 
-/// Bahrain (BH)
-public enum BH: ShitcoinType {
+/// Bahrain (BHD)
+public enum BHD: ShitcoinType {
     public static var code: String {
-        "BH"
+        "BHD"
     }
 
     public static var name: String {
@@ -438,10 +441,10 @@ public enum BH: ShitcoinType {
 }
 
 
-/// Burundi (BI)
-public enum BI: ShitcoinType {
+/// Burundi (BIF)
+public enum BIF: ShitcoinType {
     public static var code: String {
-        "BI"
+        "BIF"
     }
 
     public static var name: String {
@@ -458,10 +461,10 @@ public enum BI: ShitcoinType {
 }
 
 
-/// Benin (BJ)
-public enum BJ: ShitcoinType {
+/// Benin (XOF)
+public enum XOF: ShitcoinType {
     public static var code: String {
-        "BJ"
+        "XOF"
     }
 
     public static var name: String {
@@ -478,10 +481,10 @@ public enum BJ: ShitcoinType {
 }
 
 
-/// Saint Barthélemy (BL)
-public enum BL: ShitcoinType {
+/// Saint Barthélemy (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "BL"
+        "EUR"
     }
 
     public static var name: String {
@@ -498,10 +501,10 @@ public enum BL: ShitcoinType {
 }
 
 
-/// Bermuda (BM)
-public enum BM: ShitcoinType {
+/// Bermuda (BMD)
+public enum BMD: ShitcoinType {
     public static var code: String {
-        "BM"
+        "BMD"
     }
 
     public static var name: String {
@@ -518,10 +521,10 @@ public enum BM: ShitcoinType {
 }
 
 
-/// Brunei (BN)
-public enum BN: ShitcoinType {
+/// Brunei (BND)
+public enum BND: ShitcoinType {
     public static var code: String {
-        "BN"
+        "BND"
     }
 
     public static var name: String {
@@ -538,10 +541,10 @@ public enum BN: ShitcoinType {
 }
 
 
-/// Bolivia (BO)
-public enum BO: ShitcoinType {
+/// Bolivia (BOV)
+public enum BOV: ShitcoinType {
     public static var code: String {
-        "BO"
+        "BOV"
     }
 
     public static var name: String {
@@ -558,10 +561,10 @@ public enum BO: ShitcoinType {
 }
 
 
-/// Caribbean Netherlands (BQ)
-public enum BQ: ShitcoinType {
+/// Caribbean Netherlands (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "BQ"
+        "USD"
     }
 
     public static var name: String {
@@ -578,10 +581,10 @@ public enum BQ: ShitcoinType {
 }
 
 
-/// Brazil (BR)
-public enum BR: ShitcoinType {
+/// Brazil (BRL)
+public enum BRL: ShitcoinType {
     public static var code: String {
-        "BR"
+        "BRL"
     }
 
     public static var name: String {
@@ -598,10 +601,10 @@ public enum BR: ShitcoinType {
 }
 
 
-/// Bahamas (BS)
-public enum BS: ShitcoinType {
+/// Bahamas (BSD)
+public enum BSD: ShitcoinType {
     public static var code: String {
-        "BS"
+        "BSD"
     }
 
     public static var name: String {
@@ -618,10 +621,10 @@ public enum BS: ShitcoinType {
 }
 
 
-/// Bhutan (BT)
-public enum BT: ShitcoinType {
+/// Bhutan (BTN)
+public enum BTN: ShitcoinType {
     public static var code: String {
-        "BT"
+        "BTN"
     }
 
     public static var name: String {
@@ -638,10 +641,10 @@ public enum BT: ShitcoinType {
 }
 
 
-/// Bouvet Island (BV)
-public enum BV: ShitcoinType {
+/// Bouvet Island (NOK)
+public enum NOK: ShitcoinType {
     public static var code: String {
-        "BV"
+        "NOK"
     }
 
     public static var name: String {
@@ -658,10 +661,10 @@ public enum BV: ShitcoinType {
 }
 
 
-/// Botswana (BW)
-public enum BW: ShitcoinType {
+/// Botswana (BWP)
+public enum BWP: ShitcoinType {
     public static var code: String {
-        "BW"
+        "BWP"
     }
 
     public static var name: String {
@@ -678,10 +681,10 @@ public enum BW: ShitcoinType {
 }
 
 
-/// Belarus (BY)
-public enum BY: ShitcoinType {
+/// Belarus (BYR)
+public enum BYR: ShitcoinType {
     public static var code: String {
-        "BY"
+        "BYR"
     }
 
     public static var name: String {
@@ -698,10 +701,10 @@ public enum BY: ShitcoinType {
 }
 
 
-/// Belize (BZ)
-public enum BZ: ShitcoinType {
+/// Belize (BZD)
+public enum BZD: ShitcoinType {
     public static var code: String {
-        "BZ"
+        "BZD"
     }
 
     public static var name: String {
@@ -718,10 +721,10 @@ public enum BZ: ShitcoinType {
 }
 
 
-/// Canada (CA)
-public enum CA: ShitcoinType {
+/// Canada (CAD)
+public enum CAD: ShitcoinType {
     public static var code: String {
-        "CA"
+        "CAD"
     }
 
     public static var name: String {
@@ -738,10 +741,10 @@ public enum CA: ShitcoinType {
 }
 
 
-/// Cocos (Keeling) Islands (CC)
-public enum CC: ShitcoinType {
+/// Cocos (Keeling) Islands (AUD)
+public enum AUD: ShitcoinType {
     public static var code: String {
-        "CC"
+        "AUD"
     }
 
     public static var name: String {
@@ -758,10 +761,10 @@ public enum CC: ShitcoinType {
 }
 
 
-/// Congo D.R. (CD)
-public enum CD: ShitcoinType {
+/// Congo D.R. (CDF)
+public enum CDF: ShitcoinType {
     public static var code: String {
-        "CD"
+        "CDF"
     }
 
     public static var name: String {
@@ -778,10 +781,10 @@ public enum CD: ShitcoinType {
 }
 
 
-/// Central African Rep. (CF)
-public enum CF: ShitcoinType {
+/// Central African Rep. (XAF)
+public enum XAF: ShitcoinType {
     public static var code: String {
-        "CF"
+        "XAF"
     }
 
     public static var name: String {
@@ -798,10 +801,10 @@ public enum CF: ShitcoinType {
 }
 
 
-/// Congo (CG)
-public enum CG: ShitcoinType {
+/// Congo (XAF)
+public enum XAF: ShitcoinType {
     public static var code: String {
-        "CG"
+        "XAF"
     }
 
     public static var name: String {
@@ -818,10 +821,10 @@ public enum CG: ShitcoinType {
 }
 
 
-/// Switzerland (CH)
-public enum CH: ShitcoinType {
+/// Switzerland (CHF)
+public enum CHF: ShitcoinType {
     public static var code: String {
-        "CH"
+        "CHF"
     }
 
     public static var name: String {
@@ -838,10 +841,10 @@ public enum CH: ShitcoinType {
 }
 
 
-/// Côte d'Ivoire (CI)
-public enum CI: ShitcoinType {
+/// Côte d'Ivoire (XOF)
+public enum XOF: ShitcoinType {
     public static var code: String {
-        "CI"
+        "XOF"
     }
 
     public static var name: String {
@@ -858,10 +861,10 @@ public enum CI: ShitcoinType {
 }
 
 
-/// Cook Islands (CK)
-public enum CK: ShitcoinType {
+/// Cook Islands (NZD)
+public enum NZD: ShitcoinType {
     public static var code: String {
-        "CK"
+        "NZD"
     }
 
     public static var name: String {
@@ -878,10 +881,10 @@ public enum CK: ShitcoinType {
 }
 
 
-/// Chile (CL)
-public enum CL: ShitcoinType {
+/// Chile (CLF)
+public enum CLF: ShitcoinType {
     public static var code: String {
-        "CL"
+        "CLF"
     }
 
     public static var name: String {
@@ -898,10 +901,10 @@ public enum CL: ShitcoinType {
 }
 
 
-/// Cameroon (CM)
-public enum CM: ShitcoinType {
+/// Cameroon (XAF)
+public enum XAF: ShitcoinType {
     public static var code: String {
-        "CM"
+        "XAF"
     }
 
     public static var name: String {
@@ -918,10 +921,10 @@ public enum CM: ShitcoinType {
 }
 
 
-/// China (CN)
-public enum CN: ShitcoinType {
+/// China (CNY)
+public enum CNY: ShitcoinType {
     public static var code: String {
-        "CN"
+        "CNY"
     }
 
     public static var name: String {
@@ -938,10 +941,10 @@ public enum CN: ShitcoinType {
 }
 
 
-/// Colombia (CO)
-public enum CO: ShitcoinType {
+/// Colombia (COP)
+public enum COP: ShitcoinType {
     public static var code: String {
-        "CO"
+        "COP"
     }
 
     public static var name: String {
@@ -958,10 +961,10 @@ public enum CO: ShitcoinType {
 }
 
 
-/// Costa Rica (CR)
-public enum CR: ShitcoinType {
+/// Costa Rica (CRC)
+public enum CRC: ShitcoinType {
     public static var code: String {
-        "CR"
+        "CRC"
     }
 
     public static var name: String {
@@ -978,10 +981,10 @@ public enum CR: ShitcoinType {
 }
 
 
-/// Cuba (CU)
-public enum CU: ShitcoinType {
+/// Cuba (CUC)
+public enum CUC: ShitcoinType {
     public static var code: String {
-        "CU"
+        "CUC"
     }
 
     public static var name: String {
@@ -998,10 +1001,10 @@ public enum CU: ShitcoinType {
 }
 
 
-/// Cape Verde (CV)
-public enum CV: ShitcoinType {
+/// Cape Verde (CVE)
+public enum CVE: ShitcoinType {
     public static var code: String {
-        "CV"
+        "CVE"
     }
 
     public static var name: String {
@@ -1018,10 +1021,10 @@ public enum CV: ShitcoinType {
 }
 
 
-/// Curaçao (CW)
-public enum CW: ShitcoinType {
+/// Curaçao (ANG)
+public enum ANG: ShitcoinType {
     public static var code: String {
-        "CW"
+        "ANG"
     }
 
     public static var name: String {
@@ -1038,10 +1041,10 @@ public enum CW: ShitcoinType {
 }
 
 
-/// Christmas Island (CX)
-public enum CX: ShitcoinType {
+/// Christmas Island (AUD)
+public enum AUD: ShitcoinType {
     public static var code: String {
-        "CX"
+        "AUD"
     }
 
     public static var name: String {
@@ -1058,10 +1061,10 @@ public enum CX: ShitcoinType {
 }
 
 
-/// Cyprus (CY)
-public enum CY: ShitcoinType {
+/// Cyprus (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "CY"
+        "EUR"
     }
 
     public static var name: String {
@@ -1078,10 +1081,10 @@ public enum CY: ShitcoinType {
 }
 
 
-/// Czech Republic (CZ)
-public enum CZ: ShitcoinType {
+/// Czech Republic (CZK)
+public enum CZK: ShitcoinType {
     public static var code: String {
-        "CZ"
+        "CZK"
     }
 
     public static var name: String {
@@ -1098,10 +1101,10 @@ public enum CZ: ShitcoinType {
 }
 
 
-/// Germany (DE)
-public enum DE: ShitcoinType {
+/// Germany (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "DE"
+        "EUR"
     }
 
     public static var name: String {
@@ -1118,10 +1121,10 @@ public enum DE: ShitcoinType {
 }
 
 
-/// Djibouti (DJ)
-public enum DJ: ShitcoinType {
+/// Djibouti (DJF)
+public enum DJF: ShitcoinType {
     public static var code: String {
-        "DJ"
+        "DJF"
     }
 
     public static var name: String {
@@ -1138,10 +1141,10 @@ public enum DJ: ShitcoinType {
 }
 
 
-/// Denmark (DK)
-public enum DK: ShitcoinType {
+/// Denmark (DKK)
+public enum DKK: ShitcoinType {
     public static var code: String {
-        "DK"
+        "DKK"
     }
 
     public static var name: String {
@@ -1158,10 +1161,10 @@ public enum DK: ShitcoinType {
 }
 
 
-/// Dominica (DM)
-public enum DM: ShitcoinType {
+/// Dominica (XCD)
+public enum XCD: ShitcoinType {
     public static var code: String {
-        "DM"
+        "XCD"
     }
 
     public static var name: String {
@@ -1178,10 +1181,10 @@ public enum DM: ShitcoinType {
 }
 
 
-/// Dominican Republic (DO)
-public enum DO: ShitcoinType {
+/// Dominican Republic (DOP)
+public enum DOP: ShitcoinType {
     public static var code: String {
-        "DO"
+        "DOP"
     }
 
     public static var name: String {
@@ -1198,10 +1201,10 @@ public enum DO: ShitcoinType {
 }
 
 
-/// Algeria (DZ)
-public enum DZ: ShitcoinType {
+/// Algeria (DZD)
+public enum DZD: ShitcoinType {
     public static var code: String {
-        "DZ"
+        "DZD"
     }
 
     public static var name: String {
@@ -1218,10 +1221,10 @@ public enum DZ: ShitcoinType {
 }
 
 
-/// Ecuador (EC)
-public enum EC: ShitcoinType {
+/// Ecuador (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "EC"
+        "USD"
     }
 
     public static var name: String {
@@ -1238,10 +1241,10 @@ public enum EC: ShitcoinType {
 }
 
 
-/// Estonia (EE)
-public enum EE: ShitcoinType {
+/// Estonia (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "EE"
+        "EUR"
     }
 
     public static var name: String {
@@ -1258,10 +1261,10 @@ public enum EE: ShitcoinType {
 }
 
 
-/// Egypt (EG)
-public enum EG: ShitcoinType {
+/// Egypt (EGP)
+public enum EGP: ShitcoinType {
     public static var code: String {
-        "EG"
+        "EGP"
     }
 
     public static var name: String {
@@ -1278,10 +1281,10 @@ public enum EG: ShitcoinType {
 }
 
 
-/// Western Sahara (EH)
-public enum EH: ShitcoinType {
+/// Western Sahara (MAD)
+public enum MAD: ShitcoinType {
     public static var code: String {
-        "EH"
+        "MAD"
     }
 
     public static var name: String {
@@ -1298,10 +1301,10 @@ public enum EH: ShitcoinType {
 }
 
 
-/// Eritrea (ER)
-public enum ER: ShitcoinType {
+/// Eritrea (ERN)
+public enum ERN: ShitcoinType {
     public static var code: String {
-        "ER"
+        "ERN"
     }
 
     public static var name: String {
@@ -1318,10 +1321,10 @@ public enum ER: ShitcoinType {
 }
 
 
-/// Spain (ES)
-public enum ES: ShitcoinType {
+/// Spain (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "ES"
+        "EUR"
     }
 
     public static var name: String {
@@ -1338,10 +1341,10 @@ public enum ES: ShitcoinType {
 }
 
 
-/// Ethiopia (ET)
-public enum ET: ShitcoinType {
+/// Ethiopia (ETB)
+public enum ETB: ShitcoinType {
     public static var code: String {
-        "ET"
+        "ETB"
     }
 
     public static var name: String {
@@ -1358,10 +1361,10 @@ public enum ET: ShitcoinType {
 }
 
 
-/// Finland (FI)
-public enum FI: ShitcoinType {
+/// Finland (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "FI"
+        "EUR"
     }
 
     public static var name: String {
@@ -1378,10 +1381,10 @@ public enum FI: ShitcoinType {
 }
 
 
-/// Fiji (FJ)
-public enum FJ: ShitcoinType {
+/// Fiji (FJD)
+public enum FJD: ShitcoinType {
     public static var code: String {
-        "FJ"
+        "FJD"
     }
 
     public static var name: String {
@@ -1398,10 +1401,10 @@ public enum FJ: ShitcoinType {
 }
 
 
-/// Falkland Islands (FK)
-public enum FK: ShitcoinType {
+/// Falkland Islands (FKP)
+public enum FKP: ShitcoinType {
     public static var code: String {
-        "FK"
+        "FKP"
     }
 
     public static var name: String {
@@ -1418,10 +1421,10 @@ public enum FK: ShitcoinType {
 }
 
 
-/// Micronesia (FM)
-public enum FM: ShitcoinType {
+/// Micronesia (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "FM"
+        "USD"
     }
 
     public static var name: String {
@@ -1438,10 +1441,10 @@ public enum FM: ShitcoinType {
 }
 
 
-/// Faroe Islands (FO)
-public enum FO: ShitcoinType {
+/// Faroe Islands (DKK)
+public enum DKK: ShitcoinType {
     public static var code: String {
-        "FO"
+        "DKK"
     }
 
     public static var name: String {
@@ -1458,10 +1461,10 @@ public enum FO: ShitcoinType {
 }
 
 
-/// France (FR)
-public enum FR: ShitcoinType {
+/// France (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "FR"
+        "EUR"
     }
 
     public static var name: String {
@@ -1478,10 +1481,10 @@ public enum FR: ShitcoinType {
 }
 
 
-/// Gabon (GA)
-public enum GA: ShitcoinType {
+/// Gabon (XAF)
+public enum XAF: ShitcoinType {
     public static var code: String {
-        "GA"
+        "XAF"
     }
 
     public static var name: String {
@@ -1498,10 +1501,10 @@ public enum GA: ShitcoinType {
 }
 
 
-/// United Kingdom (GB)
-public enum GB: ShitcoinType {
+/// United Kingdom (GBP)
+public enum GBP: ShitcoinType {
     public static var code: String {
-        "GB"
+        "GBP"
     }
 
     public static var name: String {
@@ -1518,10 +1521,10 @@ public enum GB: ShitcoinType {
 }
 
 
-/// Grenada (GD)
-public enum GD: ShitcoinType {
+/// Grenada (XCD)
+public enum XCD: ShitcoinType {
     public static var code: String {
-        "GD"
+        "XCD"
     }
 
     public static var name: String {
@@ -1538,10 +1541,10 @@ public enum GD: ShitcoinType {
 }
 
 
-/// Georgia (GE)
-public enum GE: ShitcoinType {
+/// Georgia (GEL)
+public enum GEL: ShitcoinType {
     public static var code: String {
-        "GE"
+        "GEL"
     }
 
     public static var name: String {
@@ -1558,10 +1561,10 @@ public enum GE: ShitcoinType {
 }
 
 
-/// French Guiana (GF)
-public enum GF: ShitcoinType {
+/// French Guiana (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "GF"
+        "EUR"
     }
 
     public static var name: String {
@@ -1578,10 +1581,10 @@ public enum GF: ShitcoinType {
 }
 
 
-/// Guernsey (GG)
-public enum GG: ShitcoinType {
+/// Guernsey (GBP)
+public enum GBP: ShitcoinType {
     public static var code: String {
-        "GG"
+        "GBP"
     }
 
     public static var name: String {
@@ -1598,10 +1601,10 @@ public enum GG: ShitcoinType {
 }
 
 
-/// Ghana (GH)
-public enum GH: ShitcoinType {
+/// Ghana (GHS)
+public enum GHS: ShitcoinType {
     public static var code: String {
-        "GH"
+        "GHS"
     }
 
     public static var name: String {
@@ -1618,10 +1621,10 @@ public enum GH: ShitcoinType {
 }
 
 
-/// Gibraltar (GI)
-public enum GI: ShitcoinType {
+/// Gibraltar (GIP)
+public enum GIP: ShitcoinType {
     public static var code: String {
-        "GI"
+        "GIP"
     }
 
     public static var name: String {
@@ -1638,10 +1641,10 @@ public enum GI: ShitcoinType {
 }
 
 
-/// Greenland (GL)
-public enum GL: ShitcoinType {
+/// Greenland (DKK)
+public enum DKK: ShitcoinType {
     public static var code: String {
-        "GL"
+        "DKK"
     }
 
     public static var name: String {
@@ -1658,10 +1661,10 @@ public enum GL: ShitcoinType {
 }
 
 
-/// Gambia (GM)
-public enum GM: ShitcoinType {
+/// Gambia (GMD)
+public enum GMD: ShitcoinType {
     public static var code: String {
-        "GM"
+        "GMD"
     }
 
     public static var name: String {
@@ -1678,10 +1681,10 @@ public enum GM: ShitcoinType {
 }
 
 
-/// Guinea (GN)
-public enum GN: ShitcoinType {
+/// Guinea (GNF)
+public enum GNF: ShitcoinType {
     public static var code: String {
-        "GN"
+        "GNF"
     }
 
     public static var name: String {
@@ -1698,10 +1701,10 @@ public enum GN: ShitcoinType {
 }
 
 
-/// Guadeloupe (GP)
-public enum GP: ShitcoinType {
+/// Guadeloupe (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "GP"
+        "EUR"
     }
 
     public static var name: String {
@@ -1718,10 +1721,10 @@ public enum GP: ShitcoinType {
 }
 
 
-/// Equatorial Guinea (GQ)
-public enum GQ: ShitcoinType {
+/// Equatorial Guinea (XAF)
+public enum XAF: ShitcoinType {
     public static var code: String {
-        "GQ"
+        "XAF"
     }
 
     public static var name: String {
@@ -1738,10 +1741,10 @@ public enum GQ: ShitcoinType {
 }
 
 
-/// Greece (GR)
-public enum GR: ShitcoinType {
+/// Greece (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "GR"
+        "EUR"
     }
 
     public static var name: String {
@@ -1758,10 +1761,10 @@ public enum GR: ShitcoinType {
 }
 
 
-/// Guatemala (GT)
-public enum GT: ShitcoinType {
+/// Guatemala (GTQ)
+public enum GTQ: ShitcoinType {
     public static var code: String {
-        "GT"
+        "GTQ"
     }
 
     public static var name: String {
@@ -1778,10 +1781,10 @@ public enum GT: ShitcoinType {
 }
 
 
-/// Guam (GU)
-public enum GU: ShitcoinType {
+/// Guam (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "GU"
+        "USD"
     }
 
     public static var name: String {
@@ -1798,10 +1801,10 @@ public enum GU: ShitcoinType {
 }
 
 
-/// Guinea-Bissau (GW)
-public enum GW: ShitcoinType {
+/// Guinea-Bissau (XOF)
+public enum XOF: ShitcoinType {
     public static var code: String {
-        "GW"
+        "XOF"
     }
 
     public static var name: String {
@@ -1818,10 +1821,10 @@ public enum GW: ShitcoinType {
 }
 
 
-/// Guyana (GY)
-public enum GY: ShitcoinType {
+/// Guyana (GYD)
+public enum GYD: ShitcoinType {
     public static var code: String {
-        "GY"
+        "GYD"
     }
 
     public static var name: String {
@@ -1838,10 +1841,10 @@ public enum GY: ShitcoinType {
 }
 
 
-/// Hong Kong (HK)
-public enum HK: ShitcoinType {
+/// Hong Kong (HKD)
+public enum HKD: ShitcoinType {
     public static var code: String {
-        "HK"
+        "HKD"
     }
 
     public static var name: String {
@@ -1858,10 +1861,10 @@ public enum HK: ShitcoinType {
 }
 
 
-/// Heard & McDonald Islands (HM)
-public enum HM: ShitcoinType {
+/// Heard & McDonald Islands (AUD)
+public enum AUD: ShitcoinType {
     public static var code: String {
-        "HM"
+        "AUD"
     }
 
     public static var name: String {
@@ -1878,10 +1881,10 @@ public enum HM: ShitcoinType {
 }
 
 
-/// Honduras (HN)
-public enum HN: ShitcoinType {
+/// Honduras (HNL)
+public enum HNL: ShitcoinType {
     public static var code: String {
-        "HN"
+        "HNL"
     }
 
     public static var name: String {
@@ -1898,10 +1901,10 @@ public enum HN: ShitcoinType {
 }
 
 
-/// Croatia (HR)
-public enum HR: ShitcoinType {
+/// Croatia (HRK)
+public enum HRK: ShitcoinType {
     public static var code: String {
-        "HR"
+        "HRK"
     }
 
     public static var name: String {
@@ -1918,10 +1921,10 @@ public enum HR: ShitcoinType {
 }
 
 
-/// Haiti (HT)
-public enum HT: ShitcoinType {
+/// Haiti (HTG)
+public enum HTG: ShitcoinType {
     public static var code: String {
-        "HT"
+        "HTG"
     }
 
     public static var name: String {
@@ -1938,10 +1941,10 @@ public enum HT: ShitcoinType {
 }
 
 
-/// Hungary (HU)
-public enum HU: ShitcoinType {
+/// Hungary (HUF)
+public enum HUF: ShitcoinType {
     public static var code: String {
-        "HU"
+        "HUF"
     }
 
     public static var name: String {
@@ -1958,10 +1961,10 @@ public enum HU: ShitcoinType {
 }
 
 
-/// Indonesia (ID)
-public enum ID: ShitcoinType {
+/// Indonesia (IDR)
+public enum IDR: ShitcoinType {
     public static var code: String {
-        "ID"
+        "IDR"
     }
 
     public static var name: String {
@@ -1978,10 +1981,10 @@ public enum ID: ShitcoinType {
 }
 
 
-/// Ireland (IE)
-public enum IE: ShitcoinType {
+/// Ireland (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "IE"
+        "EUR"
     }
 
     public static var name: String {
@@ -1998,10 +2001,10 @@ public enum IE: ShitcoinType {
 }
 
 
-/// Israel (IL)
-public enum IL: ShitcoinType {
+/// Israel (ILS)
+public enum ILS: ShitcoinType {
     public static var code: String {
-        "IL"
+        "ILS"
     }
 
     public static var name: String {
@@ -2018,10 +2021,10 @@ public enum IL: ShitcoinType {
 }
 
 
-/// Isle of Man (IM)
-public enum IM: ShitcoinType {
+/// Isle of Man (GBP)
+public enum GBP: ShitcoinType {
     public static var code: String {
-        "IM"
+        "GBP"
     }
 
     public static var name: String {
@@ -2038,10 +2041,10 @@ public enum IM: ShitcoinType {
 }
 
 
-/// India (IN)
-public enum IN: ShitcoinType {
+/// India (INR)
+public enum INR: ShitcoinType {
     public static var code: String {
-        "IN"
+        "INR"
     }
 
     public static var name: String {
@@ -2058,10 +2061,10 @@ public enum IN: ShitcoinType {
 }
 
 
-/// British Indian Ocean Terr. (IO)
-public enum IO: ShitcoinType {
+/// British Indian Ocean Terr. (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "IO"
+        "USD"
     }
 
     public static var name: String {
@@ -2078,10 +2081,10 @@ public enum IO: ShitcoinType {
 }
 
 
-/// Iraq (IQ)
-public enum IQ: ShitcoinType {
+/// Iraq (IQD)
+public enum IQD: ShitcoinType {
     public static var code: String {
-        "IQ"
+        "IQD"
     }
 
     public static var name: String {
@@ -2098,10 +2101,10 @@ public enum IQ: ShitcoinType {
 }
 
 
-/// Iran (IR)
-public enum IR: ShitcoinType {
+/// Iran (IRR)
+public enum IRR: ShitcoinType {
     public static var code: String {
-        "IR"
+        "IRR"
     }
 
     public static var name: String {
@@ -2118,10 +2121,10 @@ public enum IR: ShitcoinType {
 }
 
 
-/// Iceland (IS)
-public enum IS: ShitcoinType {
+/// Iceland (ISK)
+public enum ISK: ShitcoinType {
     public static var code: String {
-        "IS"
+        "ISK"
     }
 
     public static var name: String {
@@ -2138,10 +2141,10 @@ public enum IS: ShitcoinType {
 }
 
 
-/// Italy (IT)
-public enum IT: ShitcoinType {
+/// Italy (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "IT"
+        "EUR"
     }
 
     public static var name: String {
@@ -2158,10 +2161,10 @@ public enum IT: ShitcoinType {
 }
 
 
-/// Jersey (JE)
-public enum JE: ShitcoinType {
+/// Jersey (GBP)
+public enum GBP: ShitcoinType {
     public static var code: String {
-        "JE"
+        "GBP"
     }
 
     public static var name: String {
@@ -2178,10 +2181,10 @@ public enum JE: ShitcoinType {
 }
 
 
-/// Jamaica (JM)
-public enum JM: ShitcoinType {
+/// Jamaica (JMD)
+public enum JMD: ShitcoinType {
     public static var code: String {
-        "JM"
+        "JMD"
     }
 
     public static var name: String {
@@ -2198,10 +2201,10 @@ public enum JM: ShitcoinType {
 }
 
 
-/// Jordan (JO)
-public enum JO: ShitcoinType {
+/// Jordan (JOD)
+public enum JOD: ShitcoinType {
     public static var code: String {
-        "JO"
+        "JOD"
     }
 
     public static var name: String {
@@ -2218,10 +2221,10 @@ public enum JO: ShitcoinType {
 }
 
 
-/// Japan (JP)
-public enum JP: ShitcoinType {
+/// Japan (JPY)
+public enum JPY: ShitcoinType {
     public static var code: String {
-        "JP"
+        "JPY"
     }
 
     public static var name: String {
@@ -2238,10 +2241,10 @@ public enum JP: ShitcoinType {
 }
 
 
-/// Kenya (KE)
-public enum KE: ShitcoinType {
+/// Kenya (KES)
+public enum KES: ShitcoinType {
     public static var code: String {
-        "KE"
+        "KES"
     }
 
     public static var name: String {
@@ -2258,10 +2261,10 @@ public enum KE: ShitcoinType {
 }
 
 
-/// Kyrgyzstan (KG)
-public enum KG: ShitcoinType {
+/// Kyrgyzstan (KGS)
+public enum KGS: ShitcoinType {
     public static var code: String {
-        "KG"
+        "KGS"
     }
 
     public static var name: String {
@@ -2278,10 +2281,10 @@ public enum KG: ShitcoinType {
 }
 
 
-/// Cambodia (KH)
-public enum KH: ShitcoinType {
+/// Cambodia (KHR)
+public enum KHR: ShitcoinType {
     public static var code: String {
-        "KH"
+        "KHR"
     }
 
     public static var name: String {
@@ -2298,10 +2301,10 @@ public enum KH: ShitcoinType {
 }
 
 
-/// Kiribati (KI)
-public enum KI: ShitcoinType {
+/// Kiribati (AUD)
+public enum AUD: ShitcoinType {
     public static var code: String {
-        "KI"
+        "AUD"
     }
 
     public static var name: String {
@@ -2318,10 +2321,10 @@ public enum KI: ShitcoinType {
 }
 
 
-/// Comoros (KM)
-public enum KM: ShitcoinType {
+/// Comoros (KMF)
+public enum KMF: ShitcoinType {
     public static var code: String {
-        "KM"
+        "KMF"
     }
 
     public static var name: String {
@@ -2338,10 +2341,10 @@ public enum KM: ShitcoinType {
 }
 
 
-/// Saint Kitts and Nevis (KN)
-public enum KN: ShitcoinType {
+/// Saint Kitts and Nevis (XCD)
+public enum XCD: ShitcoinType {
     public static var code: String {
-        "KN"
+        "XCD"
     }
 
     public static var name: String {
@@ -2358,10 +2361,10 @@ public enum KN: ShitcoinType {
 }
 
 
-/// North Korea (KP)
-public enum KP: ShitcoinType {
+/// North Korea (KPW)
+public enum KPW: ShitcoinType {
     public static var code: String {
-        "KP"
+        "KPW"
     }
 
     public static var name: String {
@@ -2378,10 +2381,10 @@ public enum KP: ShitcoinType {
 }
 
 
-/// South Korea (KR)
-public enum KR: ShitcoinType {
+/// South Korea (KRW)
+public enum KRW: ShitcoinType {
     public static var code: String {
-        "KR"
+        "KRW"
     }
 
     public static var name: String {
@@ -2398,10 +2401,10 @@ public enum KR: ShitcoinType {
 }
 
 
-/// Kuwait (KW)
-public enum KW: ShitcoinType {
+/// Kuwait (KWD)
+public enum KWD: ShitcoinType {
     public static var code: String {
-        "KW"
+        "KWD"
     }
 
     public static var name: String {
@@ -2418,10 +2421,10 @@ public enum KW: ShitcoinType {
 }
 
 
-/// Cayman Islands (KY)
-public enum KY: ShitcoinType {
+/// Cayman Islands (KYD)
+public enum KYD: ShitcoinType {
     public static var code: String {
-        "KY"
+        "KYD"
     }
 
     public static var name: String {
@@ -2438,10 +2441,10 @@ public enum KY: ShitcoinType {
 }
 
 
-/// Kazakhstan (KZ)
-public enum KZ: ShitcoinType {
+/// Kazakhstan (KZT)
+public enum KZT: ShitcoinType {
     public static var code: String {
-        "KZ"
+        "KZT"
     }
 
     public static var name: String {
@@ -2458,10 +2461,10 @@ public enum KZ: ShitcoinType {
 }
 
 
-/// Laos (LA)
-public enum LA: ShitcoinType {
+/// Laos (LAK)
+public enum LAK: ShitcoinType {
     public static var code: String {
-        "LA"
+        "LAK"
     }
 
     public static var name: String {
@@ -2478,10 +2481,10 @@ public enum LA: ShitcoinType {
 }
 
 
-/// Lebanon (LB)
-public enum LB: ShitcoinType {
+/// Lebanon (LBP)
+public enum LBP: ShitcoinType {
     public static var code: String {
-        "LB"
+        "LBP"
     }
 
     public static var name: String {
@@ -2498,10 +2501,10 @@ public enum LB: ShitcoinType {
 }
 
 
-/// Saint Lucia (LC)
-public enum LC: ShitcoinType {
+/// Saint Lucia (XCD)
+public enum XCD: ShitcoinType {
     public static var code: String {
-        "LC"
+        "XCD"
     }
 
     public static var name: String {
@@ -2518,10 +2521,10 @@ public enum LC: ShitcoinType {
 }
 
 
-/// Liechtenstein (LI)
-public enum LI: ShitcoinType {
+/// Liechtenstein (CHF)
+public enum CHF: ShitcoinType {
     public static var code: String {
-        "LI"
+        "CHF"
     }
 
     public static var name: String {
@@ -2538,10 +2541,10 @@ public enum LI: ShitcoinType {
 }
 
 
-/// Sri Lanka (LK)
-public enum LK: ShitcoinType {
+/// Sri Lanka (LKR)
+public enum LKR: ShitcoinType {
     public static var code: String {
-        "LK"
+        "LKR"
     }
 
     public static var name: String {
@@ -2558,10 +2561,10 @@ public enum LK: ShitcoinType {
 }
 
 
-/// Liberia (LR)
-public enum LR: ShitcoinType {
+/// Liberia (LRD)
+public enum LRD: ShitcoinType {
     public static var code: String {
-        "LR"
+        "LRD"
     }
 
     public static var name: String {
@@ -2578,10 +2581,10 @@ public enum LR: ShitcoinType {
 }
 
 
-/// Lesotho (LS)
-public enum LS: ShitcoinType {
+/// Lesotho (LSL)
+public enum LSL: ShitcoinType {
     public static var code: String {
-        "LS"
+        "LSL"
     }
 
     public static var name: String {
@@ -2598,10 +2601,10 @@ public enum LS: ShitcoinType {
 }
 
 
-/// Lithuania (LT)
-public enum LT: ShitcoinType {
+/// Lithuania (LTL)
+public enum LTL: ShitcoinType {
     public static var code: String {
-        "LT"
+        "LTL"
     }
 
     public static var name: String {
@@ -2618,10 +2621,10 @@ public enum LT: ShitcoinType {
 }
 
 
-/// Luxembourg (LU)
-public enum LU: ShitcoinType {
+/// Luxembourg (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "LU"
+        "EUR"
     }
 
     public static var name: String {
@@ -2638,10 +2641,10 @@ public enum LU: ShitcoinType {
 }
 
 
-/// Latvia (LV)
-public enum LV: ShitcoinType {
+/// Latvia (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "LV"
+        "EUR"
     }
 
     public static var name: String {
@@ -2658,10 +2661,10 @@ public enum LV: ShitcoinType {
 }
 
 
-/// Libya (LY)
-public enum LY: ShitcoinType {
+/// Libya (LYD)
+public enum LYD: ShitcoinType {
     public static var code: String {
-        "LY"
+        "LYD"
     }
 
     public static var name: String {
@@ -2678,10 +2681,10 @@ public enum LY: ShitcoinType {
 }
 
 
-/// Morocco (MA)
-public enum MA: ShitcoinType {
+/// Morocco (MAD)
+public enum MAD: ShitcoinType {
     public static var code: String {
-        "MA"
+        "MAD"
     }
 
     public static var name: String {
@@ -2698,10 +2701,10 @@ public enum MA: ShitcoinType {
 }
 
 
-/// Monaco (MC)
-public enum MC: ShitcoinType {
+/// Monaco (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "MC"
+        "EUR"
     }
 
     public static var name: String {
@@ -2718,10 +2721,10 @@ public enum MC: ShitcoinType {
 }
 
 
-/// Moldova (MD)
-public enum MD: ShitcoinType {
+/// Moldova (MDL)
+public enum MDL: ShitcoinType {
     public static var code: String {
-        "MD"
+        "MDL"
     }
 
     public static var name: String {
@@ -2738,10 +2741,10 @@ public enum MD: ShitcoinType {
 }
 
 
-/// Montenegro (ME)
-public enum ME: ShitcoinType {
+/// Montenegro (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "ME"
+        "EUR"
     }
 
     public static var name: String {
@@ -2758,10 +2761,10 @@ public enum ME: ShitcoinType {
 }
 
 
-/// Saint Martin (MF)
-public enum MF: ShitcoinType {
+/// Saint Martin (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "MF"
+        "EUR"
     }
 
     public static var name: String {
@@ -2778,10 +2781,10 @@ public enum MF: ShitcoinType {
 }
 
 
-/// Madagascar (MG)
-public enum MG: ShitcoinType {
+/// Madagascar (MGA)
+public enum MGA: ShitcoinType {
     public static var code: String {
-        "MG"
+        "MGA"
     }
 
     public static var name: String {
@@ -2798,10 +2801,10 @@ public enum MG: ShitcoinType {
 }
 
 
-/// Marshall Islands (MH)
-public enum MH: ShitcoinType {
+/// Marshall Islands (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "MH"
+        "USD"
     }
 
     public static var name: String {
@@ -2818,10 +2821,10 @@ public enum MH: ShitcoinType {
 }
 
 
-/// Macedonia (MK)
-public enum MK: ShitcoinType {
+/// Macedonia (MKD)
+public enum MKD: ShitcoinType {
     public static var code: String {
-        "MK"
+        "MKD"
     }
 
     public static var name: String {
@@ -2838,10 +2841,10 @@ public enum MK: ShitcoinType {
 }
 
 
-/// Mali (ML)
-public enum ML: ShitcoinType {
+/// Mali (XOF)
+public enum XOF: ShitcoinType {
     public static var code: String {
-        "ML"
+        "XOF"
     }
 
     public static var name: String {
@@ -2858,10 +2861,10 @@ public enum ML: ShitcoinType {
 }
 
 
-/// Burma (MM)
-public enum MM: ShitcoinType {
+/// Burma (MMK)
+public enum MMK: ShitcoinType {
     public static var code: String {
-        "MM"
+        "MMK"
     }
 
     public static var name: String {
@@ -2878,10 +2881,10 @@ public enum MM: ShitcoinType {
 }
 
 
-/// Mongolia (MN)
-public enum MN: ShitcoinType {
+/// Mongolia (MNT)
+public enum MNT: ShitcoinType {
     public static var code: String {
-        "MN"
+        "MNT"
     }
 
     public static var name: String {
@@ -2898,10 +2901,10 @@ public enum MN: ShitcoinType {
 }
 
 
-/// Macau (MO)
-public enum MO: ShitcoinType {
+/// Macau (MOP)
+public enum MOP: ShitcoinType {
     public static var code: String {
-        "MO"
+        "MOP"
     }
 
     public static var name: String {
@@ -2918,10 +2921,10 @@ public enum MO: ShitcoinType {
 }
 
 
-/// Northern Mariana Islands (MP)
-public enum MP: ShitcoinType {
+/// Northern Mariana Islands (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "MP"
+        "USD"
     }
 
     public static var name: String {
@@ -2938,10 +2941,10 @@ public enum MP: ShitcoinType {
 }
 
 
-/// Martinique (MQ)
-public enum MQ: ShitcoinType {
+/// Martinique (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "MQ"
+        "EUR"
     }
 
     public static var name: String {
@@ -2958,10 +2961,10 @@ public enum MQ: ShitcoinType {
 }
 
 
-/// Mauritania (MR)
-public enum MR: ShitcoinType {
+/// Mauritania (MRO)
+public enum MRO: ShitcoinType {
     public static var code: String {
-        "MR"
+        "MRO"
     }
 
     public static var name: String {
@@ -2978,10 +2981,10 @@ public enum MR: ShitcoinType {
 }
 
 
-/// Montserrat (MS)
-public enum MS: ShitcoinType {
+/// Montserrat (XCD)
+public enum XCD: ShitcoinType {
     public static var code: String {
-        "MS"
+        "XCD"
     }
 
     public static var name: String {
@@ -2998,10 +3001,10 @@ public enum MS: ShitcoinType {
 }
 
 
-/// Malta (MT)
-public enum MT: ShitcoinType {
+/// Malta (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "MT"
+        "EUR"
     }
 
     public static var name: String {
@@ -3018,10 +3021,10 @@ public enum MT: ShitcoinType {
 }
 
 
-/// Mauritius (MU)
-public enum MU: ShitcoinType {
+/// Mauritius (MUR)
+public enum MUR: ShitcoinType {
     public static var code: String {
-        "MU"
+        "MUR"
     }
 
     public static var name: String {
@@ -3038,10 +3041,10 @@ public enum MU: ShitcoinType {
 }
 
 
-/// Maldives (MV)
-public enum MV: ShitcoinType {
+/// Maldives (MVR)
+public enum MVR: ShitcoinType {
     public static var code: String {
-        "MV"
+        "MVR"
     }
 
     public static var name: String {
@@ -3058,10 +3061,10 @@ public enum MV: ShitcoinType {
 }
 
 
-/// Malawi (MW)
-public enum MW: ShitcoinType {
+/// Malawi (MWK)
+public enum MWK: ShitcoinType {
     public static var code: String {
-        "MW"
+        "MWK"
     }
 
     public static var name: String {
@@ -3078,10 +3081,10 @@ public enum MW: ShitcoinType {
 }
 
 
-/// Mexico (MX)
-public enum MX: ShitcoinType {
+/// Mexico (MXN)
+public enum MXN: ShitcoinType {
     public static var code: String {
-        "MX"
+        "MXN"
     }
 
     public static var name: String {
@@ -3098,10 +3101,10 @@ public enum MX: ShitcoinType {
 }
 
 
-/// Malaysia (MY)
-public enum MY: ShitcoinType {
+/// Malaysia (MYR)
+public enum MYR: ShitcoinType {
     public static var code: String {
-        "MY"
+        "MYR"
     }
 
     public static var name: String {
@@ -3118,10 +3121,10 @@ public enum MY: ShitcoinType {
 }
 
 
-/// Mozambique (MZ)
-public enum MZ: ShitcoinType {
+/// Mozambique (MZN)
+public enum MZN: ShitcoinType {
     public static var code: String {
-        "MZ"
+        "MZN"
     }
 
     public static var name: String {
@@ -3138,10 +3141,10 @@ public enum MZ: ShitcoinType {
 }
 
 
-/// Namibia (NA)
-public enum NA: ShitcoinType {
+/// Namibia (NAD)
+public enum NAD: ShitcoinType {
     public static var code: String {
-        "NA"
+        "NAD"
     }
 
     public static var name: String {
@@ -3158,10 +3161,10 @@ public enum NA: ShitcoinType {
 }
 
 
-/// New Caledonia (NC)
-public enum NC: ShitcoinType {
+/// New Caledonia (XPF)
+public enum XPF: ShitcoinType {
     public static var code: String {
-        "NC"
+        "XPF"
     }
 
     public static var name: String {
@@ -3178,10 +3181,10 @@ public enum NC: ShitcoinType {
 }
 
 
-/// Niger (NE)
-public enum NE: ShitcoinType {
+/// Niger (XOF)
+public enum XOF: ShitcoinType {
     public static var code: String {
-        "NE"
+        "XOF"
     }
 
     public static var name: String {
@@ -3198,10 +3201,10 @@ public enum NE: ShitcoinType {
 }
 
 
-/// Norfolk Island (NF)
-public enum NF: ShitcoinType {
+/// Norfolk Island (AUD)
+public enum AUD: ShitcoinType {
     public static var code: String {
-        "NF"
+        "AUD"
     }
 
     public static var name: String {
@@ -3218,10 +3221,10 @@ public enum NF: ShitcoinType {
 }
 
 
-/// Nigeria (NG)
-public enum NG: ShitcoinType {
+/// Nigeria (NGN)
+public enum NGN: ShitcoinType {
     public static var code: String {
-        "NG"
+        "NGN"
     }
 
     public static var name: String {
@@ -3238,10 +3241,10 @@ public enum NG: ShitcoinType {
 }
 
 
-/// Nicaragua (NI)
-public enum NI: ShitcoinType {
+/// Nicaragua (NIO)
+public enum NIO: ShitcoinType {
     public static var code: String {
-        "NI"
+        "NIO"
     }
 
     public static var name: String {
@@ -3258,10 +3261,10 @@ public enum NI: ShitcoinType {
 }
 
 
-/// Netherlands (NL)
-public enum NL: ShitcoinType {
+/// Netherlands (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "NL"
+        "EUR"
     }
 
     public static var name: String {
@@ -3278,10 +3281,10 @@ public enum NL: ShitcoinType {
 }
 
 
-/// Norway (NO)
-public enum NO: ShitcoinType {
+/// Norway (NOK)
+public enum NOK: ShitcoinType {
     public static var code: String {
-        "NO"
+        "NOK"
     }
 
     public static var name: String {
@@ -3298,10 +3301,10 @@ public enum NO: ShitcoinType {
 }
 
 
-/// Nepal (NP)
-public enum NP: ShitcoinType {
+/// Nepal (NPR)
+public enum NPR: ShitcoinType {
     public static var code: String {
-        "NP"
+        "NPR"
     }
 
     public static var name: String {
@@ -3318,10 +3321,10 @@ public enum NP: ShitcoinType {
 }
 
 
-/// Nauru (NR)
-public enum NR: ShitcoinType {
+/// Nauru (AUD)
+public enum AUD: ShitcoinType {
     public static var code: String {
-        "NR"
+        "AUD"
     }
 
     public static var name: String {
@@ -3338,10 +3341,10 @@ public enum NR: ShitcoinType {
 }
 
 
-/// Niue (NU)
-public enum NU: ShitcoinType {
+/// Niue (NZD)
+public enum NZD: ShitcoinType {
     public static var code: String {
-        "NU"
+        "NZD"
     }
 
     public static var name: String {
@@ -3358,10 +3361,10 @@ public enum NU: ShitcoinType {
 }
 
 
-/// New Zealand (NZ)
-public enum NZ: ShitcoinType {
+/// New Zealand (NZD)
+public enum NZD: ShitcoinType {
     public static var code: String {
-        "NZ"
+        "NZD"
     }
 
     public static var name: String {
@@ -3378,10 +3381,10 @@ public enum NZ: ShitcoinType {
 }
 
 
-/// Oman (OM)
-public enum OM: ShitcoinType {
+/// Oman (OMR)
+public enum OMR: ShitcoinType {
     public static var code: String {
-        "OM"
+        "OMR"
     }
 
     public static var name: String {
@@ -3398,10 +3401,10 @@ public enum OM: ShitcoinType {
 }
 
 
-/// Panama (PA)
-public enum PA: ShitcoinType {
+/// Panama (PAB)
+public enum PAB: ShitcoinType {
     public static var code: String {
-        "PA"
+        "PAB"
     }
 
     public static var name: String {
@@ -3418,10 +3421,10 @@ public enum PA: ShitcoinType {
 }
 
 
-/// Peru (PE)
-public enum PE: ShitcoinType {
+/// Peru (PEN)
+public enum PEN: ShitcoinType {
     public static var code: String {
-        "PE"
+        "PEN"
     }
 
     public static var name: String {
@@ -3438,10 +3441,10 @@ public enum PE: ShitcoinType {
 }
 
 
-/// French Polynesia (PF)
-public enum PF: ShitcoinType {
+/// French Polynesia (XPF)
+public enum XPF: ShitcoinType {
     public static var code: String {
-        "PF"
+        "XPF"
     }
 
     public static var name: String {
@@ -3458,10 +3461,10 @@ public enum PF: ShitcoinType {
 }
 
 
-/// Papua New Guinea (PG)
-public enum PG: ShitcoinType {
+/// Papua New Guinea (PGK)
+public enum PGK: ShitcoinType {
     public static var code: String {
-        "PG"
+        "PGK"
     }
 
     public static var name: String {
@@ -3478,10 +3481,10 @@ public enum PG: ShitcoinType {
 }
 
 
-/// Philippines (PH)
-public enum PH: ShitcoinType {
+/// Philippines (PHP)
+public enum PHP: ShitcoinType {
     public static var code: String {
-        "PH"
+        "PHP"
     }
 
     public static var name: String {
@@ -3498,10 +3501,10 @@ public enum PH: ShitcoinType {
 }
 
 
-/// Pakistan (PK)
-public enum PK: ShitcoinType {
+/// Pakistan (PKR)
+public enum PKR: ShitcoinType {
     public static var code: String {
-        "PK"
+        "PKR"
     }
 
     public static var name: String {
@@ -3518,10 +3521,10 @@ public enum PK: ShitcoinType {
 }
 
 
-/// Poland (PL)
-public enum PL: ShitcoinType {
+/// Poland (PLN)
+public enum PLN: ShitcoinType {
     public static var code: String {
-        "PL"
+        "PLN"
     }
 
     public static var name: String {
@@ -3538,10 +3541,10 @@ public enum PL: ShitcoinType {
 }
 
 
-/// Saint Pierre & Miquelon (PM)
-public enum PM: ShitcoinType {
+/// Saint Pierre & Miquelon (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "PM"
+        "EUR"
     }
 
     public static var name: String {
@@ -3558,10 +3561,10 @@ public enum PM: ShitcoinType {
 }
 
 
-/// Pitcairn Islands (PN)
-public enum PN: ShitcoinType {
+/// Pitcairn Islands (NZD)
+public enum NZD: ShitcoinType {
     public static var code: String {
-        "PN"
+        "NZD"
     }
 
     public static var name: String {
@@ -3578,10 +3581,10 @@ public enum PN: ShitcoinType {
 }
 
 
-/// Puerto Rico (PR)
-public enum PR: ShitcoinType {
+/// Puerto Rico (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "PR"
+        "USD"
     }
 
     public static var name: String {
@@ -3598,10 +3601,10 @@ public enum PR: ShitcoinType {
 }
 
 
-/// Portugal (PT)
-public enum PT: ShitcoinType {
+/// Portugal (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "PT"
+        "EUR"
     }
 
     public static var name: String {
@@ -3618,10 +3621,10 @@ public enum PT: ShitcoinType {
 }
 
 
-/// Palau (PW)
-public enum PW: ShitcoinType {
+/// Palau (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "PW"
+        "USD"
     }
 
     public static var name: String {
@@ -3638,10 +3641,10 @@ public enum PW: ShitcoinType {
 }
 
 
-/// Paraguay (PY)
-public enum PY: ShitcoinType {
+/// Paraguay (PYG)
+public enum PYG: ShitcoinType {
     public static var code: String {
-        "PY"
+        "PYG"
     }
 
     public static var name: String {
@@ -3658,10 +3661,10 @@ public enum PY: ShitcoinType {
 }
 
 
-/// Qatar (QA)
-public enum QA: ShitcoinType {
+/// Qatar (QAR)
+public enum QAR: ShitcoinType {
     public static var code: String {
-        "QA"
+        "QAR"
     }
 
     public static var name: String {
@@ -3678,10 +3681,10 @@ public enum QA: ShitcoinType {
 }
 
 
-/// Réunion (RE)
-public enum RE: ShitcoinType {
+/// Réunion (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "RE"
+        "EUR"
     }
 
     public static var name: String {
@@ -3698,10 +3701,10 @@ public enum RE: ShitcoinType {
 }
 
 
-/// Romania (RO)
-public enum RO: ShitcoinType {
+/// Romania (RON)
+public enum RON: ShitcoinType {
     public static var code: String {
-        "RO"
+        "RON"
     }
 
     public static var name: String {
@@ -3718,10 +3721,10 @@ public enum RO: ShitcoinType {
 }
 
 
-/// Serbia (RS)
-public enum RS: ShitcoinType {
+/// Serbia (RSD)
+public enum RSD: ShitcoinType {
     public static var code: String {
-        "RS"
+        "RSD"
     }
 
     public static var name: String {
@@ -3738,10 +3741,10 @@ public enum RS: ShitcoinType {
 }
 
 
-/// Russia (RU)
-public enum RU: ShitcoinType {
+/// Russia (RUB)
+public enum RUB: ShitcoinType {
     public static var code: String {
-        "RU"
+        "RUB"
     }
 
     public static var name: String {
@@ -3758,10 +3761,10 @@ public enum RU: ShitcoinType {
 }
 
 
-/// Rwanda (RW)
-public enum RW: ShitcoinType {
+/// Rwanda (RWF)
+public enum RWF: ShitcoinType {
     public static var code: String {
-        "RW"
+        "RWF"
     }
 
     public static var name: String {
@@ -3778,10 +3781,10 @@ public enum RW: ShitcoinType {
 }
 
 
-/// Saudi Arabia (SA)
-public enum SA: ShitcoinType {
+/// Saudi Arabia (SAR)
+public enum SAR: ShitcoinType {
     public static var code: String {
-        "SA"
+        "SAR"
     }
 
     public static var name: String {
@@ -3798,10 +3801,10 @@ public enum SA: ShitcoinType {
 }
 
 
-/// Solomon Islands (SB)
-public enum SB: ShitcoinType {
+/// Solomon Islands (SBD)
+public enum SBD: ShitcoinType {
     public static var code: String {
-        "SB"
+        "SBD"
     }
 
     public static var name: String {
@@ -3818,10 +3821,10 @@ public enum SB: ShitcoinType {
 }
 
 
-/// Seychelles (SC)
-public enum SC: ShitcoinType {
+/// Seychelles (SCR)
+public enum SCR: ShitcoinType {
     public static var code: String {
-        "SC"
+        "SCR"
     }
 
     public static var name: String {
@@ -3838,10 +3841,10 @@ public enum SC: ShitcoinType {
 }
 
 
-/// Sudan (SD)
-public enum SD: ShitcoinType {
+/// Sudan (SDG)
+public enum SDG: ShitcoinType {
     public static var code: String {
-        "SD"
+        "SDG"
     }
 
     public static var name: String {
@@ -3858,10 +3861,10 @@ public enum SD: ShitcoinType {
 }
 
 
-/// Sweden (SE)
-public enum SE: ShitcoinType {
+/// Sweden (SEK)
+public enum SEK: ShitcoinType {
     public static var code: String {
-        "SE"
+        "SEK"
     }
 
     public static var name: String {
@@ -3878,10 +3881,10 @@ public enum SE: ShitcoinType {
 }
 
 
-/// Singapore (SG)
-public enum SG: ShitcoinType {
+/// Singapore (SGD)
+public enum SGD: ShitcoinType {
     public static var code: String {
-        "SG"
+        "SGD"
     }
 
     public static var name: String {
@@ -3898,10 +3901,10 @@ public enum SG: ShitcoinType {
 }
 
 
-/// Saint Helena (SH)
-public enum SH: ShitcoinType {
+/// Saint Helena (SHP)
+public enum SHP: ShitcoinType {
     public static var code: String {
-        "SH"
+        "SHP"
     }
 
     public static var name: String {
@@ -3918,10 +3921,10 @@ public enum SH: ShitcoinType {
 }
 
 
-/// Slovenia (SI)
-public enum SI: ShitcoinType {
+/// Slovenia (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "SI"
+        "EUR"
     }
 
     public static var name: String {
@@ -3938,10 +3941,10 @@ public enum SI: ShitcoinType {
 }
 
 
-/// Svalbard and Jan Mayen (SJ)
-public enum SJ: ShitcoinType {
+/// Svalbard and Jan Mayen (NOK)
+public enum NOK: ShitcoinType {
     public static var code: String {
-        "SJ"
+        "NOK"
     }
 
     public static var name: String {
@@ -3958,10 +3961,10 @@ public enum SJ: ShitcoinType {
 }
 
 
-/// Slovakia (SK)
-public enum SK: ShitcoinType {
+/// Slovakia (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "SK"
+        "EUR"
     }
 
     public static var name: String {
@@ -3978,10 +3981,10 @@ public enum SK: ShitcoinType {
 }
 
 
-/// Sierra Leone (SL)
-public enum SL: ShitcoinType {
+/// Sierra Leone (SLL)
+public enum SLL: ShitcoinType {
     public static var code: String {
-        "SL"
+        "SLL"
     }
 
     public static var name: String {
@@ -3998,10 +4001,10 @@ public enum SL: ShitcoinType {
 }
 
 
-/// San Marino (SM)
-public enum SM: ShitcoinType {
+/// San Marino (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "SM"
+        "EUR"
     }
 
     public static var name: String {
@@ -4018,10 +4021,10 @@ public enum SM: ShitcoinType {
 }
 
 
-/// Senegal (SN)
-public enum SN: ShitcoinType {
+/// Senegal (XOF)
+public enum XOF: ShitcoinType {
     public static var code: String {
-        "SN"
+        "XOF"
     }
 
     public static var name: String {
@@ -4038,10 +4041,10 @@ public enum SN: ShitcoinType {
 }
 
 
-/// Somalia (SO)
-public enum SO: ShitcoinType {
+/// Somalia (SOS)
+public enum SOS: ShitcoinType {
     public static var code: String {
-        "SO"
+        "SOS"
     }
 
     public static var name: String {
@@ -4058,10 +4061,10 @@ public enum SO: ShitcoinType {
 }
 
 
-/// Suriname (SR)
-public enum SR: ShitcoinType {
+/// Suriname (SRD)
+public enum SRD: ShitcoinType {
     public static var code: String {
-        "SR"
+        "SRD"
     }
 
     public static var name: String {
@@ -4078,10 +4081,10 @@ public enum SR: ShitcoinType {
 }
 
 
-/// South Sudan (SS)
-public enum SS: ShitcoinType {
+/// South Sudan (SSP)
+public enum SSP: ShitcoinType {
     public static var code: String {
-        "SS"
+        "SSP"
     }
 
     public static var name: String {
@@ -4098,10 +4101,10 @@ public enum SS: ShitcoinType {
 }
 
 
-/// Sao Tome and Principe (ST)
-public enum ST: ShitcoinType {
+/// Sao Tome and Principe (STD)
+public enum STD: ShitcoinType {
     public static var code: String {
-        "ST"
+        "STD"
     }
 
     public static var name: String {
@@ -4118,10 +4121,10 @@ public enum ST: ShitcoinType {
 }
 
 
-/// El Salvador (SV)
-public enum SV: ShitcoinType {
+/// El Salvador (SVC)
+public enum SVC: ShitcoinType {
     public static var code: String {
-        "SV"
+        "SVC"
     }
 
     public static var name: String {
@@ -4138,10 +4141,10 @@ public enum SV: ShitcoinType {
 }
 
 
-/// Sint Maarten (SX)
-public enum SX: ShitcoinType {
+/// Sint Maarten (ANG)
+public enum ANG: ShitcoinType {
     public static var code: String {
-        "SX"
+        "ANG"
     }
 
     public static var name: String {
@@ -4158,10 +4161,10 @@ public enum SX: ShitcoinType {
 }
 
 
-/// Syria (SY)
-public enum SY: ShitcoinType {
+/// Syria (SYP)
+public enum SYP: ShitcoinType {
     public static var code: String {
-        "SY"
+        "SYP"
     }
 
     public static var name: String {
@@ -4178,10 +4181,10 @@ public enum SY: ShitcoinType {
 }
 
 
-/// Swaziland (SZ)
-public enum SZ: ShitcoinType {
+/// Swaziland (SZL)
+public enum SZL: ShitcoinType {
     public static var code: String {
-        "SZ"
+        "SZL"
     }
 
     public static var name: String {
@@ -4198,10 +4201,10 @@ public enum SZ: ShitcoinType {
 }
 
 
-/// Turks and Caicos Islands (TC)
-public enum TC: ShitcoinType {
+/// Turks and Caicos Islands (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "TC"
+        "USD"
     }
 
     public static var name: String {
@@ -4218,10 +4221,10 @@ public enum TC: ShitcoinType {
 }
 
 
-/// Chad (TD)
-public enum TD: ShitcoinType {
+/// Chad (XAF)
+public enum XAF: ShitcoinType {
     public static var code: String {
-        "TD"
+        "XAF"
     }
 
     public static var name: String {
@@ -4238,10 +4241,10 @@ public enum TD: ShitcoinType {
 }
 
 
-/// French Southern Territories (TF)
-public enum TF: ShitcoinType {
+/// French Southern Territories (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "TF"
+        "EUR"
     }
 
     public static var name: String {
@@ -4258,10 +4261,10 @@ public enum TF: ShitcoinType {
 }
 
 
-/// Togo (TG)
-public enum TG: ShitcoinType {
+/// Togo (XOF)
+public enum XOF: ShitcoinType {
     public static var code: String {
-        "TG"
+        "XOF"
     }
 
     public static var name: String {
@@ -4278,10 +4281,10 @@ public enum TG: ShitcoinType {
 }
 
 
-/// Thailand (TH)
-public enum TH: ShitcoinType {
+/// Thailand (THB)
+public enum THB: ShitcoinType {
     public static var code: String {
-        "TH"
+        "THB"
     }
 
     public static var name: String {
@@ -4298,10 +4301,10 @@ public enum TH: ShitcoinType {
 }
 
 
-/// Tajikistan (TJ)
-public enum TJ: ShitcoinType {
+/// Tajikistan (TJS)
+public enum TJS: ShitcoinType {
     public static var code: String {
-        "TJ"
+        "TJS"
     }
 
     public static var name: String {
@@ -4318,10 +4321,10 @@ public enum TJ: ShitcoinType {
 }
 
 
-/// Tokelau (TK)
-public enum TK: ShitcoinType {
+/// Tokelau (NZD)
+public enum NZD: ShitcoinType {
     public static var code: String {
-        "TK"
+        "NZD"
     }
 
     public static var name: String {
@@ -4338,10 +4341,10 @@ public enum TK: ShitcoinType {
 }
 
 
-/// Timor-Leste (TL)
-public enum TL: ShitcoinType {
+/// Timor-Leste (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "TL"
+        "USD"
     }
 
     public static var name: String {
@@ -4358,10 +4361,10 @@ public enum TL: ShitcoinType {
 }
 
 
-/// Turkmenistan (TM)
-public enum TM: ShitcoinType {
+/// Turkmenistan (TMT)
+public enum TMT: ShitcoinType {
     public static var code: String {
-        "TM"
+        "TMT"
     }
 
     public static var name: String {
@@ -4378,10 +4381,10 @@ public enum TM: ShitcoinType {
 }
 
 
-/// Tunisia (TN)
-public enum TN: ShitcoinType {
+/// Tunisia (TND)
+public enum TND: ShitcoinType {
     public static var code: String {
-        "TN"
+        "TND"
     }
 
     public static var name: String {
@@ -4398,10 +4401,10 @@ public enum TN: ShitcoinType {
 }
 
 
-/// Tonga (TO)
-public enum TO: ShitcoinType {
+/// Tonga (TOP)
+public enum TOP: ShitcoinType {
     public static var code: String {
-        "TO"
+        "TOP"
     }
 
     public static var name: String {
@@ -4418,10 +4421,10 @@ public enum TO: ShitcoinType {
 }
 
 
-/// Turkey (TR)
-public enum TR: ShitcoinType {
+/// Turkey (TRY)
+public enum TRY: ShitcoinType {
     public static var code: String {
-        "TR"
+        "TRY"
     }
 
     public static var name: String {
@@ -4438,10 +4441,10 @@ public enum TR: ShitcoinType {
 }
 
 
-/// Trinidad and Tobago (TT)
-public enum TT: ShitcoinType {
+/// Trinidad and Tobago (TTD)
+public enum TTD: ShitcoinType {
     public static var code: String {
-        "TT"
+        "TTD"
     }
 
     public static var name: String {
@@ -4458,10 +4461,10 @@ public enum TT: ShitcoinType {
 }
 
 
-/// Tuvalu (TV)
-public enum TV: ShitcoinType {
+/// Tuvalu (AUD)
+public enum AUD: ShitcoinType {
     public static var code: String {
-        "TV"
+        "AUD"
     }
 
     public static var name: String {
@@ -4478,10 +4481,10 @@ public enum TV: ShitcoinType {
 }
 
 
-/// Taiwan (TW)
-public enum TW: ShitcoinType {
+/// Taiwan (TWD)
+public enum TWD: ShitcoinType {
     public static var code: String {
-        "TW"
+        "TWD"
     }
 
     public static var name: String {
@@ -4498,10 +4501,10 @@ public enum TW: ShitcoinType {
 }
 
 
-/// Tanzania (TZ)
-public enum TZ: ShitcoinType {
+/// Tanzania (TZS)
+public enum TZS: ShitcoinType {
     public static var code: String {
-        "TZ"
+        "TZS"
     }
 
     public static var name: String {
@@ -4518,10 +4521,10 @@ public enum TZ: ShitcoinType {
 }
 
 
-/// Ukraine (UA)
-public enum UA: ShitcoinType {
+/// Ukraine (UAH)
+public enum UAH: ShitcoinType {
     public static var code: String {
-        "UA"
+        "UAH"
     }
 
     public static var name: String {
@@ -4538,10 +4541,10 @@ public enum UA: ShitcoinType {
 }
 
 
-/// Uganda (UG)
-public enum UG: ShitcoinType {
+/// Uganda (UGX)
+public enum UGX: ShitcoinType {
     public static var code: String {
-        "UG"
+        "UGX"
     }
 
     public static var name: String {
@@ -4558,10 +4561,10 @@ public enum UG: ShitcoinType {
 }
 
 
-/// Minor Outlying Islands (UM)
-public enum UM: ShitcoinType {
+/// Minor Outlying Islands (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "UM"
+        "USD"
     }
 
     public static var name: String {
@@ -4578,10 +4581,10 @@ public enum UM: ShitcoinType {
 }
 
 
-/// United States (US)
-public enum US: ShitcoinType {
+/// United States (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "US"
+        "USD"
     }
 
     public static var name: String {
@@ -4598,10 +4601,10 @@ public enum US: ShitcoinType {
 }
 
 
-/// Uruguay (UY)
-public enum UY: ShitcoinType {
+/// Uruguay (UYI)
+public enum UYI: ShitcoinType {
     public static var code: String {
-        "UY"
+        "UYI"
     }
 
     public static var name: String {
@@ -4618,10 +4621,10 @@ public enum UY: ShitcoinType {
 }
 
 
-/// Uzbekistan (UZ)
-public enum UZ: ShitcoinType {
+/// Uzbekistan (UZS)
+public enum UZS: ShitcoinType {
     public static var code: String {
-        "UZ"
+        "UZS"
     }
 
     public static var name: String {
@@ -4638,10 +4641,10 @@ public enum UZ: ShitcoinType {
 }
 
 
-/// Vatican (VA)
-public enum VA: ShitcoinType {
+/// Vatican (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "VA"
+        "EUR"
     }
 
     public static var name: String {
@@ -4658,10 +4661,10 @@ public enum VA: ShitcoinType {
 }
 
 
-/// St Vincent & the Grenadines (VC)
-public enum VC: ShitcoinType {
+/// St Vincent & the Grenadines (XCD)
+public enum XCD: ShitcoinType {
     public static var code: String {
-        "VC"
+        "XCD"
     }
 
     public static var name: String {
@@ -4678,10 +4681,10 @@ public enum VC: ShitcoinType {
 }
 
 
-/// Venezuela (VE)
-public enum VE: ShitcoinType {
+/// Venezuela (VEF)
+public enum VEF: ShitcoinType {
     public static var code: String {
-        "VE"
+        "VEF"
     }
 
     public static var name: String {
@@ -4698,10 +4701,10 @@ public enum VE: ShitcoinType {
 }
 
 
-/// British Virgin Islands (VG)
-public enum VG: ShitcoinType {
+/// British Virgin Islands (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "VG"
+        "USD"
     }
 
     public static var name: String {
@@ -4718,10 +4721,10 @@ public enum VG: ShitcoinType {
 }
 
 
-/// U.S. Virgin Islands (VI)
-public enum VI: ShitcoinType {
+/// U.S. Virgin Islands (USD)
+public enum USD: ShitcoinType {
     public static var code: String {
-        "VI"
+        "USD"
     }
 
     public static var name: String {
@@ -4738,10 +4741,10 @@ public enum VI: ShitcoinType {
 }
 
 
-/// Vietnam (VN)
-public enum VN: ShitcoinType {
+/// Vietnam (VND)
+public enum VND: ShitcoinType {
     public static var code: String {
-        "VN"
+        "VND"
     }
 
     public static var name: String {
@@ -4758,10 +4761,10 @@ public enum VN: ShitcoinType {
 }
 
 
-/// Vanuatu (VU)
-public enum VU: ShitcoinType {
+/// Vanuatu (VUV)
+public enum VUV: ShitcoinType {
     public static var code: String {
-        "VU"
+        "VUV"
     }
 
     public static var name: String {
@@ -4778,10 +4781,10 @@ public enum VU: ShitcoinType {
 }
 
 
-/// Wallis and Futuna (WF)
-public enum WF: ShitcoinType {
+/// Wallis and Futuna (XPF)
+public enum XPF: ShitcoinType {
     public static var code: String {
-        "WF"
+        "XPF"
     }
 
     public static var name: String {
@@ -4798,10 +4801,10 @@ public enum WF: ShitcoinType {
 }
 
 
-/// Samoa (WS)
-public enum WS: ShitcoinType {
+/// Samoa (WST)
+public enum WST: ShitcoinType {
     public static var code: String {
-        "WS"
+        "WST"
     }
 
     public static var name: String {
@@ -4818,10 +4821,10 @@ public enum WS: ShitcoinType {
 }
 
 
-/// Yemen (YE)
-public enum YE: ShitcoinType {
+/// Yemen (YER)
+public enum YER: ShitcoinType {
     public static var code: String {
-        "YE"
+        "YER"
     }
 
     public static var name: String {
@@ -4838,10 +4841,10 @@ public enum YE: ShitcoinType {
 }
 
 
-/// Mayotte (YT)
-public enum YT: ShitcoinType {
+/// Mayotte (EUR)
+public enum EUR: ShitcoinType {
     public static var code: String {
-        "YT"
+        "EUR"
     }
 
     public static var name: String {
@@ -4858,10 +4861,10 @@ public enum YT: ShitcoinType {
 }
 
 
-/// South Africa (ZA)
-public enum ZA: ShitcoinType {
+/// South Africa (ZAR)
+public enum ZAR: ShitcoinType {
     public static var code: String {
-        "ZA"
+        "ZAR"
     }
 
     public static var name: String {
@@ -4878,10 +4881,10 @@ public enum ZA: ShitcoinType {
 }
 
 
-/// Zambia (ZM)
-public enum ZM: ShitcoinType {
+/// Zambia (ZMW)
+public enum ZMW: ShitcoinType {
     public static var code: String {
-        "ZM"
+        "ZMW"
     }
 
     public static var name: String {
@@ -4898,10 +4901,10 @@ public enum ZM: ShitcoinType {
 }
 
 
-/// Zimbabwe (ZW)
-public enum ZW: ShitcoinType {
+/// Zimbabwe (ZWL)
+public enum ZWL: ShitcoinType {
     public static var code: String {
-        "ZW"
+        "ZWL"
     }
 
     public static var name: String {
