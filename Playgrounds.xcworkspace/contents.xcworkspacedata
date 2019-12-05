@@ -3,6 +3,13 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "04 - Units and Measurements">
+      <FileRef
+         location = "group:04-units-and-measurements/Playgrounds/MyPlayground.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "03 - Currency and Monetary Amounts">
       <FileRef
          location = "group:03-currency-and-monetary-amounts/Playgrounds/MyPlayground.playground">
