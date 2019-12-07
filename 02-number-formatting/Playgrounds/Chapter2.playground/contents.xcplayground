@@ -8,5 +8,6 @@
         <page name='Percentages'/>
         <page name='Currency and Monetary Amounts'/>
         <page name='Custom Formats'/>
+        <page name='Scientific Notation'/>
     </pages>
 </playground>

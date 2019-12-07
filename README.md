@@ -10,3 +10,5 @@ _Projects, playgrounds, and other materials made while following along with the 
 - [Chapter 2: Number Formatting](./02-number-formatting)
 
 - [Chapter 3: Currency and Monetary Amounts](./03-currency-and-monetary-amounts)
+
+- [Chapter 4: Units and Measurements](./04-units-and-measurements)
