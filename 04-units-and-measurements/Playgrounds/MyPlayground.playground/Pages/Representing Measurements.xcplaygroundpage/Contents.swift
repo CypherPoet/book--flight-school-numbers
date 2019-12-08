@@ -61,4 +61,27 @@ demo(describing: "Configuring Precision") {
     print(formatter.string(from: pressureInMillibars))
 }
 
+
+demo(describing: "Configuring Temperature Display") {
+    let tempInFahrenheit = Measurement<UnitTemperature>(value: 42.2, unit: .fahrenheit)
+    let tempInCelsius = Measurement<UnitTemperature>(value: 42.2, unit: .celsius)
+    
+    let formatter = MeasurementFormatter()
+    
+    // By default, `MeasurementFormatter` will convert the value and attach
+    // the locale's default degree symbol
+    print(formatter.string(for: tempInCelsius) ?? "")
+    print(formatter.string(for: tempInFahrenheit) ?? "")
+    
+    
+    
+    // We could prevent conversion and omit the degree symbol, but that's probably
+    // going to everything more confusing 🙂.
+    formatter.unitOptions = .temperatureWithoutUnit
+    
+    print(formatter.string(for: tempInCelsius) ?? "")
+    print(formatter.string(for: tempInFahrenheit) ?? "")
+}
+
+
 //: [Next](@next)

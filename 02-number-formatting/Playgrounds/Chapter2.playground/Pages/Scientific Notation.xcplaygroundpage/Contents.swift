@@ -9,7 +9,6 @@ demo(describing: "Scientific Notation") {
     let formatter = NumberFormatter()
     
     formatter.numberStyle = .scientific
-    
 
     let gtOne = Decimal(1230.000000000012498210224)
     let ltOne = Decimal(0.000000000012498210224)
