@@ -3,5 +3,7 @@
     <pages>
         <page name='Measurements Intro'/>
         <page name='Representing Measurements'/>
+        <page name='Defining a Custom Unit'/>
+        <page name='Subclassing Dimension'/>
     </pages>
 </playground>

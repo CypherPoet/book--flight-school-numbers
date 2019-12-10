@@ -45,7 +45,7 @@ extension Int {
 
         typealias Abbrevation = (threshold:Double, divisor:Double, suffix:String)
         
-        let abbreviations:[Abbrevation] = [
+        let abbreviations: [Abbrevation] = [
             (0, 1, ""),
             (1000.0, 1000.0, "K"),
             (100_000.0, 1_000_000.0, "M"),
@@ -53,7 +53,7 @@ extension Int {
             // you can add more !
         ]
         
-        let startValue = Double (abs(self))
+        let startValue = Double(abs(self))
         
         let abbreviation: Abbrevation = {
             var prevAbbreviation = abbreviations[0]
