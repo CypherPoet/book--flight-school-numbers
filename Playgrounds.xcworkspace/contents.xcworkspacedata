@@ -3,6 +3,13 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "05 - Using Playgrounds as an Interactive Calculator">
+      <FileRef
+         location = "group:05-using-playgrounds-as-an-interactive-calculator/Playgrounds/MyPlayground.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "04 - Units and Measurements">
       <FileRef
          location = "group:04-units-and-measurements/Playgrounds/MyPlayground.playground">

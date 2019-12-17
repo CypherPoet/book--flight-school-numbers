@@ -12,3 +12,5 @@ _Projects, playgrounds, and other materials made while following along with the 
 - [Chapter 3: Currency and Monetary Amounts](./03-currency-and-monetary-amounts)
 
 - [Chapter 4: Units and Measurements](./04-units-and-measurements)
+
+- [Chapter 5: Using Playgrounds as an Interactive Calculator](./05-using-playgrounds-as-an-interactive-calculator)
